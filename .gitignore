@@ -1,0 +1,6 @@
+# ignora a pasta do ambiente virutal
+venv/
+
+env/
+
+node_models/

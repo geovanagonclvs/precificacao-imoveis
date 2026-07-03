@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+openai
+scikit-learn
+joblib
+pandas
+pydantic-settings
+pymysql
