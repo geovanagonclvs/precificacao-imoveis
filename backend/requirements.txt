@@ -1,8 +1,9 @@
-fastapi
-uvicorn[standard]
-openai
-scikit-learn
-joblib
-pandas
-pydantic-settings
-pymysql
+fastapi==0.139.0
+uvicorn[standard]==0.34.0
+google-genai==2.3.0
+scikit-learn==1.7.2
+joblib==1.4.2
+pandas==2.3.3
+pydantic-settings==2.14.2
+pymysql==1.2.0
+cryptography==42.0.0
