@@ -29,44 +29,74 @@ function impedirRecarregamento(){
 
 impedirRecarregamento()
 
- function montarJSON(){
+//  function montarJSON(){
 
-            inputCidade = document.getElementById("cidade").value
-            inputBairro = document.getElementById("bairro").value
-            inputImovel = document.getElementById("casa").value
+    //         inputCidade = document.getElementById("cidade").value
+    //         inputBairro = document.getElementById("bairro").value
+    //         inputImovel = document.getElementById("casa").value
 
-    /*
-    Explicação do código abaixo:
+    // /*
+    // Explicação do código abaixo:
     
-    input[name="nQuartos"]: procura pelos inputs que possuem o name = quartos
-    :checked: pegua paenas o que estiver marcado
-    .value: extrai o valor inserido pelo usuário
+    // input[name="nQuartos"]: procura pelos inputs que possuem o name = quartos
+    // :checked: pegua paenas o que estiver marcado
+    // .value: extrai o valor inserido pelo usuário
 
     
-    */
-            inputQuartos = document.querySelector('input[name="nQuartos"]:checked').value
+    // */
+    //         inputQuartos = document.querySelector('input[name="nQuartos"]:checked').value
 
-            inputGaragens = document.querySelector('input[name="nGaragens"]:checked').value
+    //         inputGaragens = document.querySelector('input[name="nGaragens"]:checked').value
 
-            inputBanheiros = document.querySelector('input[name="nBanheiros"]:checked').value
+    //         inputBanheiros = document.querySelector('input[name="nBanheiros"]:checked').value
 
-            inputSuites = document.querySelector('input[name="nSuites"]:checked').value
+    //         inputSuites = document.querySelector('input[name="nSuites"]:checked').value
 
-            inputArea = document.getElementById("area").value
+    //         inputArea = document.getElementById("area").value
 
-            const dados = {
-                    cidade: inputCidade,
-                    bairro: inputBairro,
-                    imovel: inputImovel,
-                    quartos: inputQuartos,
-                    garagens: inputGaragens,
-                    banheiros: inputBanheiros,
-                    area: inputArea
+    //         const dados = {
+         
+                
+    //                 cidade: inputCidade,
+    //                 bairro: inputBairro,
+    //                 imovel: inputImovel,
+    //                 quartos: inputQuartos,
+    //                 garagens: inputGaragens,
+    //                 banheiros: inputBanheiros,
+    //                 area: inputArea
     
 
-            }
+    //         }
 
-            console.log(dados)
+    //         console.log(dados)
 
 
-        }
+    //     }
+
+function montarJSON(){
+    
+    inputCidade = document.getElementById("cidade").value
+    inputBairro = document.getElementById("bairro").value
+    inputImovel = document.getElementById("casa").value
+    inputQuartos = document.getElementById("quartos").value
+    inputGaragens = document.getElementById("garagens").value
+    inputBanheiros = document.getElementById("banheiros").value
+    inputSuites = document.getElementById("suites").value
+    inputArea = document.getElementById("area").value
+    
+
+    const dados = {
+         
+                
+        // cidade: inputCidade,
+        bairro: inputBairro,
+        // imovel: inputImovel,
+        quartos: inputQuartos,
+        vagas: inputGaragens,
+        banheiros: inputBanheiros,
+        area_m2: inputArea
+
+}
+
+    console.log(dados)
+}
