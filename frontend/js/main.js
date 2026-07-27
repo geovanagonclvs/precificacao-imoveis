@@ -98,5 +98,19 @@ function montarJSON(){
 
 }
 
+
+    fetch('http://127.0.0.1:8000/precificar', {
+        method: 'POST',
+        headers: {
+            'Contet-Type': 'application/json'
+
+
+        },
+        body: JSON.stringify(dados)
+
+    
+        
+    })
+
     console.log(dados)
 }
