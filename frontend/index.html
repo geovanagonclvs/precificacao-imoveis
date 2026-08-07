@@ -1,85 +1,108 @@
-<meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-
-<title>Estimativa de Imóveis</title>
-
-<link rel="stylesheet"
-        href="style/css/style.css">
-
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estimativa de Imóveis</title>
+    <link rel="stylesheet" href="style/css/style.css">
 </head>
-
+ 
 <body>
-
+ 
     <div class="container">
-
-      <p class="subtitulo">ANÁLISE INTELIGENTE</p>
-       
-     <h1 class="titulo">
-        Qual o valor<br>
-        do seu imóvel?
-    </h1>
-
-    <p class="descricao">
-        Preencha as características do imóvel e receba uma estimativa de 
-        preço de mercado baseada em dados reais da região.
-    </p>
-
-<div class="passos">
-
-    <div class="passo">
-        <span class="numero">01</span>
-        
-       <div>
-            <strong>Informe a localização e tipo do imóvel</strong>
-       </div>
-    </div>
-
-    <div class="passo">
-        <span class="numero">02</span> 
-        
-        <div> 
-            <strong>Detalhe quartos, banheiros e vagas</strong>
-        </div>
-    </div>
-
-    <div class="passo">
-        <span class="numero">03</span>
-
-    <div>
-        <strong>Receba o laudo com o preço estimado</strong>
-     </div>
-     </div>
-
-    <div class="aviso">
-
-        <h3>AVISO</h3>
-        <p>
-            Os valores são estimativas com base em índices de mercado.
-            Consulte um corretor credenciado para avaliação formal.
-        </p>
-</div>
-
-<section class="card">
-
-    <h2>Dados do Imóvel</h2>
-
-    <section id="testeFormulario">
-        <form id="formulario">
-
-            
-            <input type="text" name="ncidade" id="cidade">
-
-            <input type="text" name="nbairro" id="bairro">
-
-            <input type="text" name="ncasa" id="casa">
-
-            <input type="number" name="nquartos" id="quartos">
-
-            <input type="number" name="ngaragens" id="garagens">
-
-            <input type="number" name="nbanheiros" id="banheiros">
-
-            <input type="number" name="nsuites" id="suites">
+        <div class="grid-principal">
+ 
+            <div class="coluna-hero">
+ 
+                <p class="subtitulo">ANÁLISE INTELIGENTE</p>
+ 
+                <h1 class="titulo">
+                    Qual o valor<br>
+                    do seu imóvel?
+                </h1>
+ 
+                <p class="descricao">
+                    Preencha as características do imóvel e receba uma estimativa de
+                    preço de mercado baseada em dados reais da região.
+                </p>
+ 
+                <div class="passos">
+ 
+                    <div class="passo">
+                        <span class="numero">01</span>
+                        <div>
+                            <strong>Informe a localização e tipo do imóvel</strong>
+                        </div>
+                    </div>
+ 
+                    <div class="passo">
+                        <span class="numero">02</span>
+                        <div>
+                            <strong>Detalhe quartos, banheiros e vagas</strong>
+                        </div>
+                    </div>
+ 
+                    <div class="passo">
+                        <span class="numero">03</span>
+                        <div>
+                            <strong>Receba o laudo com o preço estimado</strong>
+                        </div>
+                    </div>
+ 
+                </div>
+ 
+                <div class="aviso">
+                    <h3>AVISO</h3>
+                    <p>
+                        Os valores são estimativas com base em índices de mercado.
+                        Consulte um corretor credenciado para avaliação formal.
+                    </p>
+                </div>
+ 
+            </div><!-- fecha .coluna-hero -->
+ 
+            <div class="coluna-form">
+                <section class="card">
+ 
+                    <h2>Dados do Imóvel</h2>
+ 
+                    <section id="testeFormulario">
+                        <form id="formulario">
+ 
+                            <!-- Mesmos inputs/ids de sempre, só embrulhados em
+                                 .campo + label pra poder estilizar -->
+ 
+                            <div class="campo">
+                                <label for="cidade">CIDADE</label>
+                                <input type="text" name="ncidade" id="cidade">
+                            </div>
+ 
+                            <div class="campo">
+                                <label for="bairro">BAIRRO</label>
+                                <input type="text" name="nbairro" id="bairro">
+                            </div>
+ 
+                            <div class="campo">
+                                <label for="casa">TIPO DE IMÓVEL</label>
+                                <input type="text" name="ncasa" id="casa">
+                            </div>
+ 
+                            <div class="campo">
+                                <label for="quartos">QUARTOS</label>
+                                <input type="number" name="nquartos" id="quartos">
+                            </div>
+ 
+                            <div class="campo">
+                                <label for="garagens">VAGAS DE GARAGEM</label>
+                                <input type="number" name="ngaragens" id="garagens">
+                            </div>
+ 
+                            <div class="campo">
+                                <label for="banheiros">BANHEIROS</label>
+                                <input type="number" name="nbanheiros" id="banheiros">
+                            </div>
+ 
+                            <div class="campo">
+                                <label for="suites">COM SUÍTE</label>
+                                <input type="number" name="nsuites" id="suites">
+                            </div>
+ 
 <!-- 
             <div>Cidade</div>
             <input type="checkbox" name="ncidade" id="cidade">Jardins <br><br>
@@ -117,22 +140,24 @@
             <div>Área do imóvel: </div>
             <input type="number" name="nArea" id="area"> <br><br>
 
-     -->
-            <div>Área do imóvel: </div>
-            <input type="number" name="nArea" id="area"> <br><br>
-                <input type="submit"  id="botao" value="Procurar Imóvel">
-            
-        </form>
-    </section>
+     --> 
+            <div class="campo">
+                                <label for="area">ÁREA DO IMÓVEL</label>
+                                <input type="number" name="nArea" id="area">
+                            </div>
+ 
+                            <input type="submit" id="botao" value="Procurar Imóvel">
+ 
+                        </form>
+                    </section>
+ 
+                </section>
+            </div><!-- fecha .coluna-form -->
+ 
+        </div><!-- fecha .grid-principal -->
+    </div><!-- fecha .container -->
+ 
+    <script src="js/main.js"></script>
 
-</section>
-
-</div>
-
-<script src="js/main.js"></script>
 </body>
-
-
-
 </html>
-
