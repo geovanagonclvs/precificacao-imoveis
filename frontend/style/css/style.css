@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     margin:0;
     background:#f5f5f5;
@@ -11,6 +15,20 @@ body{
     max-width:1100px;
 
     margin:60px auto;
+}
+
+/* NOVO: grid de 2 colunas — hero à esquerda, card à direita */
+.grid-principal {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 60px;
+    align-items: start;
+}
+ 
+@media (max-width: 860px) {
+    .grid-principal {
+        grid-template-columns: 1fr;
+    }
 }
 
 .card{
@@ -119,3 +137,64 @@ body{
     font-family:Arial, sans-serif;
 
 }
+
+/* ===================== NOVO: estilização dos campos =====================
+   Aqui é só CSS. Os elementos em si (input, id, name, type) continuam
+   exatamente como já estavam definidos — não criei select nem botão
+   nenhum, só deixei os campos com espaçamento, bordas e labels. */
+ 
+.card h2 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #1f1f1f;
+}
+ 
+.campo {
+    margin-bottom: 18px;
+}
+ 
+.campo label {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #888;
+    margin-bottom: 8px;
+}
+ 
+.campo input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: white;
+}
+ 
+.campo input:focus {
+    outline: none;
+    border-color: #4f8d73;
+}
+ 
+#botao {
+    width: 100%;
+    padding: 16px;
+    background: #4f8d73;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.15s ease;
+    margin-top: 10px;
+}
+ 
+#botao:hover {
+    background: #3b7a57;
+}
+ 
