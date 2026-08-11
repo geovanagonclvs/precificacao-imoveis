@@ -17,6 +17,63 @@ body{
     margin:60px auto;
 }
 
+/* ===================== NOVO: cabeçalho ===================== */
+ 
+.topo {
+    background: white;
+    border-bottom: 1px solid #eee;
+    padding: 18px 0;
+}
+ 
+.topo-conteudo {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.logo {
+    font-weight: bold;
+    color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+ 
+.icone-svg {
+    width: 18px;
+    height: 18px;
+    color: #4f8d73;
+    flex-shrink: 0;
+}
+ 
+.topo-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ 
+.topo-label {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #888;
+}
+ 
+.btn-historico {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+ 
+.btn-historico:hover {
+    background: #f5f5f5;
+}
+
 /* NOVO: grid de 2 colunas — hero à esquerda, card à direita */
 .grid-principal {
     display: grid;
@@ -32,24 +89,26 @@ body{
 }
 
 .card{
-
     background:white;
-
     padding:30px;
-
     border-radius:20px;
-
-    margin-top:30px;
 }
-.descricao{
-
+ 
+.card h2 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #1f1f1f;
+}
+ 
+.descricao{  
     font-size:18px;
     color:#555;
     line-height:1.6;
     margin-top:20px;
     margin-bottom:40px;
-
-}
+}  
 
 .passos{
 
@@ -138,10 +197,186 @@ body{
 
 }
 
+/* ===================== campos (select / input) ===================== */
+ 
+.campo {
+    margin-bottom: 20px;
+    position: relative;
+}
+ 
+.campo label {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #888;
+    margin-bottom: 8px;
+}
+ 
+.campo select,
+.campo input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: white;
+    appearance: none;
+    -webkit-appearance: none;
+}
+ 
+.campo select:focus,
+.campo input:focus {
+    outline: none;
+    border-color: #4f8d73;
+}
+ 
+/* NOVO: ícone dentro do campo (📍 🏠 🧱 📐), igual ao Figma */
+.campo-com-icone {
+    position: relative;
+}
+ 
+.campo-com-icone .icone-campo {
+    position: absolute;
+    left: 14px;
+    top: 40px;
+    font-size: 14px;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    color: #94a89c;
+}
+ 
+.campo-com-icone .icone-campo svg {
+    width: 16px;
+    height: 16px;
+}
+ 
+.campo-com-icone select,
+.campo-com-icone input {
+    padding-left: 38px;
+}
+ 
+.campo-com-icone select {
+    background-image: linear-gradient(45deg, transparent 50%, #999 50%),
+                       linear-gradient(135deg, #999 50%, transparent 50%);
+    background-position: calc(100% - 20px) center, calc(100% - 15px) center;
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat;
+}
+ 
+.unidade-campo {
+    position: absolute;
+    right: 14px;
+    top: 40px;
+    font-size: 13px;
+    color: #999;
+    pointer-events: none;
+}
+ 
+.divisor {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 25px 0;
+}
+ 
+/* ===================== NOVO: grupos de botões (Quartos, Banheiros...) ===================== */
+ 
+.campo-grupo {
+    margin-bottom: 20px;
+}
+ 
+.campo-grupo label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #888;
+    margin-bottom: 10px;
+}
+ 
+.campo-grupo label .icone-svg {
+    width: 15px;
+    height: 15px;
+    color: #94a89c;
+}
+ 
+.botoes-opcao {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+ 
+.btn-opcao {
+    flex: 1;
+    min-width: 40px;
+    padding: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    font-size: 15px;
+    color: #444;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+ 
+.btn-opcao:hover {
+    border-color: #4f8d73;
+}
+ 
+.btn-opcao.ativo {
+    background: #4f8d73;
+    border-color: #4f8d73;
+    color: white;
+    font-weight: bold;
+}
+ 
+/* ===================== mensagem de erro e botão final ===================== */
+ 
+.erro-mensagem {
+    color: #c0392b;
+    font-size: 14px;
+    margin: 0 0 15px;
+    min-height: 18px;
+}
+ 
+.btn-principal {
+    width: 100%;
+    padding: 16px;
+    background: #4f8d73;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+ 
+.btn-principal:hover {
+    background: #3b7a57;
+}
+ 
+/* ===================== rodapé ===================== */
+ 
+.rodape {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: #999;
+    font-size: 13px;
+    border-top: 1px solid #eee;
+}
+
+
 /* ===================== NOVO: estilização dos campos =====================
    Aqui é só CSS. Os elementos em si (input, id, name, type) continuam
    exatamente como já estavam definidos — não criei select nem botão
-   nenhum, só deixei os campos com espaçamento, bordas e labels. */
+   nenhum, só deixei os campos com espaçamento, bordas e labels. 
  
 .card h2 {
     font-family: Georgia, serif;
@@ -193,8 +428,3 @@ body{
     transition: background 0.15s ease;
     margin-top: 10px;
 }
- 
-#botao:hover {
-    background: #3b7a57;
-}
- 
