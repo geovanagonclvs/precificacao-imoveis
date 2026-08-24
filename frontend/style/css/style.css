@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.oculto {
+    display: none !important;
+}
+
 body{
     margin:0;
     background:#f5f5f5;
@@ -358,6 +362,276 @@ body{
  
 .btn-principal:hover {
     background: #3b7a57;
+}
+
+/* ===================== NOVO: link Voltar no cabeçalho ===================== */
+ 
+.link-voltar-topo {
+    background: none;
+    border: none;
+    color: #555;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 20px;
+}
+ 
+.link-voltar-topo:hover {
+    color: #1f1f1f;
+}
+ 
+/* ===================== TELA DE CARREGAMENTO ===================== */
+ 
+#telaCarregando {
+    text-align: center;
+    padding: 100px 0;
+}
+ 
+.carregando-texto {
+    font-size: 18px;
+    color: #555;
+}
+ 
+/* ===================== TELA DE RESULTADO ===================== */
+ 
+#telaResultado {
+    margin-top: -60px;
+}
+ 
+.resultado-hero {
+    position: relative;
+    height: 420px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-image:
+        linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.15) 45%, rgba(0,0,0,0.05) 100%),
+        url("https://images.unsplash.com/photo-1760067537293-6b30141d6a52?fm=jpg&q=70&w=1600&auto=format&fit=crop");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ 
+.badge-avaliacao {
+    align-self: flex-start;
+    margin: 20px;
+    background: #4f8d73;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+ 
+.resultado-hero-overlay {
+    padding: 30px;
+    color: white;
+}
+ 
+.resultado-hero-label {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #cfe3d7;
+    margin-bottom: 8px;
+}
+ 
+.resultado-hero h2 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    font-size: 40px;
+    margin: 0 0 6px;
+    color: white;
+}
+ 
+.resultado-hero-faixa {
+    font-size: 13px;
+    color: #d9d9d9;
+}
+ 
+/* ===================== conteúdo abaixo da foto ===================== */
+ 
+.resultado-conteudo {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    gap: 40px;
+    margin-top: 35px;
+}
+ 
+@media (max-width: 860px) {
+    .resultado-conteudo {
+        grid-template-columns: 1fr;
+    }
+}
+ 
+.resultado-local {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #888;
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+ 
+.resultado-local .icone-svg {
+    width: 14px;
+    height: 14px;
+    color: #888;
+}
+ 
+.resultado-titulo {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    font-size: 28px;
+    color: #1f1f1f;
+    margin: 0 0 8px;
+}
+ 
+.resultado-subtitulo {
+    color: #777;
+    margin: 0 0 25px;
+}
+ 
+.resultado-specs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 30px;
+}
+ 
+@media (max-width: 600px) {
+    .resultado-specs-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+ 
+.resultado-spec {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-size: 14px;
+    color: #444;
+}
+ 
+.resultado-spec svg {
+    width: 16px;
+    height: 16px;
+    color: #4f8d73;
+    flex-shrink: 0;
+}
+ 
+.resultado-sobre {
+    background: white;
+    border-radius: 15px;
+    padding: 25px 30px;
+}
+ 
+.resultado-sobre h3 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    margin-top: 0;
+    color: #1f1f1f;
+}
+ 
+.resultado-sobre p {
+    color: #555;
+    line-height: 1.7;
+    margin: 0 0 14px;
+}
+ 
+/* ===================== card lateral (estimativa) ===================== */
+ 
+.resultado-lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+ 
+.card-estimativa {
+    background: #1f2f27;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+ 
+.card-estimativa .resultado-hero-label {
+    color: #a9c4b3;
+}
+ 
+.card-estimativa h2 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    font-size: 34px;
+    margin: 8px 0 4px;
+    color: white;
+}
+ 
+.card-estimativa .resultado-hero-faixa {
+    color: #9fb3a8;
+    font-size: 13px;
+}
+ 
+.divisor-card {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    margin: 20px 0;
+}
+ 
+.card-estimativa-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+ 
+.card-estimativa-label {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #9fb3a8;
+    margin-bottom: 4px;
+}
+ 
+.card-estimativa-grid strong {
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+}
+ 
+.btn-secundario {
+    width: 100%;
+    padding: 14px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+ 
+.btn-secundario:hover {
+    background: #f5f5f5;
+}
+ 
+.link-nova-avaliacao {
+    background: none;
+    border: none;
+    color: #4f8d73;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 6px 0;
+}
+ 
+.resultado-disclaimer {
+    font-size: 12px;
+    color: #999;
+    line-height: 1.6;
+    margin-top: 6px;
 }
  
 /* ===================== rodapé ===================== */

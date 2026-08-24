@@ -7,6 +7,7 @@
  
     <header class="topo">
         <div class="topo-conteudo">
+             <button class="link-voltar-topo oculto" id="btnVoltarTopo" type="button">← Voltar</button>
             <span class="logo">
                 <svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v9a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-9"/></svg>
                 PrecificaImóveis
@@ -19,6 +20,7 @@
     </header>
  
     <div class="container">
+        <section id="telaFormulario">
         <div class="grid-principal">
  
             <div class="coluna-hero">
@@ -239,6 +241,89 @@
             </div><!-- fecha .coluna-form -->
  
         </div><!-- fecha .grid-principal -->
+        </section><!-- fecha #telaFormulario -->
+ 
+        <!-- ===================== TELA DE CARREGANDO ===================== -->
+        <section id="telaCarregando" class="oculto">
+            <p class="carregando-texto">Calculando a estimativa do seu imóvel...</p>
+        </section>
+ 
+        <!-- ===================== TELA DE RESULTADO ===================== -->
+        <section id="telaResultado" class="oculto">
+ 
+            <div class="resultado-hero" id="resultadoHero">
+                <span class="badge-avaliacao">AVALIAÇÃO ESTIMADA</span>
+                <div class="resultado-hero-overlay">
+                    <span class="resultado-hero-label">VALOR ESTIMADO DE MERCADO</span>
+                    <h2 id="resultadoPreco">R$ 0</h2>
+                    <span class="resultado-hero-faixa" id="resultadoFaixa"></span>
+                </div>
+            </div>
+ 
+            <div class="resultado-conteudo">
+ 
+                <div class="resultado-principal">
+ 
+                    <p class="resultado-local">
+                        <svg class="icone-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s7-7.2 7-12a7 7 0 1 0-14 0c0 4.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.3"/></svg>
+                        <span id="resultadoLocal"></span>
+                    </p>
+ 
+                    <h1 class="resultado-titulo" id="resultadoTitulo"></h1>
+                    <p class="resultado-subtitulo" id="resultadoSubtitulo"></p>
+ 
+                    <div class="resultado-specs-grid" id="resultadoSpecsGrid"></div>
+ 
+                    <div class="resultado-sobre">
+                        <h3>Sobre o Imóvel</h3>
+                        <div id="resultadoTexto">Gerando descrição...</div>
+                    </div>
+ 
+                </div>
+ 
+                <aside class="resultado-lateral">
+                    <div class="card-estimativa">
+                        <span class="resultado-hero-label">ESTIMATIVA DE VALOR</span>
+                        <h2 id="resultadoPrecoCard">R$ 0</h2>
+                        <span class="resultado-hero-faixa" id="resultadoFaixaCard"></span>
+ 
+                        <hr class="divisor-card">
+ 
+                        <div class="card-estimativa-grid">
+                            <div>
+                                <span class="card-estimativa-label">PREÇO / M²</span>
+                                <strong id="resultadoPrecoM2"></strong>
+                            </div>
+                            <div>
+                                <span class="card-estimativa-label">ÁREA TOTAL</span>
+                                <strong id="resultadoAreaTotal"></strong>
+                            </div>
+                            <div>
+                                <span class="card-estimativa-label">BAIRRO</span>
+                                <strong id="resultadoBairroCard"></strong>
+                            </div>
+                            <div>
+                                <span class="card-estimativa-label">TIPO</span>
+                                <strong id="resultadoTipoCard"></strong>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <button type="button" class="btn-principal" id="btnFalarCorretor">📞 FALAR COM UM CORRETOR</button>
+                    <button type="button" class="btn-secundario" id="btnCompartilhar">🔗 COMPARTILHAR LAUDO</button>
+                    <button type="button" class="link-nova-avaliacao" id="btnNovaAvaliacao">+ NOVA AVALIAÇÃO</button>
+ 
+                    <p class="resultado-disclaimer">
+                        Estimativa gerada automaticamente com base em índices de mercado.
+                        Não substitui laudo técnico de avaliador credenciado pelo CRECI.
+                    </p>
+                </aside>
+ 
+            </div>
+        </section>
+
+
+
     </div><!-- fecha .container -->
  
     <footer class="rodape">
