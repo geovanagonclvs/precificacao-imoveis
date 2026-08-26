@@ -78,7 +78,7 @@ body{
     background: #f5f5f5;
 }
 
-/* NOVO: grid de 2 colunas — hero à esquerda, card à direita */
+/* NOVO: grid de 2 colunas — tela 1 */
 .grid-principal {
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
@@ -364,23 +364,7 @@ body{
     background: #3b7a57;
 }
 
-/* ===================== NOVO: link Voltar no cabeçalho ===================== */
- 
-.link-voltar-topo {
-    background: none;
-    border: none;
-    color: #555;
-    font-size: 14px;
-    cursor: pointer;
-    padding: 0;
-    margin-right: 20px;
-}
- 
-.link-voltar-topo:hover {
-    color: #1f1f1f;
-}
- 
-/* ===================== TELA DE CARREGAMENTO ===================== */
+/* ===================== tela de carregamento (Tela2.html) ===================== */
  
 #telaCarregando {
     text-align: center;
@@ -392,20 +376,14 @@ body{
     color: #555;
 }
  
-/* ===================== TELA DE RESULTADO ===================== */
- 
-#telaResultado {
-    margin-top: -60px;
-}
+/* ===================== tela 2 ===================== */
  
 .resultado-hero {
     position: relative;
     height: 420px;
     border-radius: 20px;
     overflow: hidden;
-    background-image:
-        linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.15) 45%, rgba(0,0,0,0.05) 100%),
-        url("https://images.unsplash.com/photo-1760067537293-6b30141d6a52?fm=jpg&q=70&w=1600&auto=format&fit=crop");
+    background-color: #ccc;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -450,8 +428,6 @@ body{
     font-size: 13px;
     color: #d9d9d9;
 }
- 
-/* ===================== conteúdo abaixo da foto ===================== */
  
 .resultado-conteudo {
     display: grid;
@@ -544,8 +520,6 @@ body{
     line-height: 1.7;
     margin: 0 0 14px;
 }
- 
-/* ===================== card lateral (estimativa) ===================== */
  
 .resultado-lateral {
     display: flex;
@@ -647,7 +621,7 @@ body{
 }
 
 
-/* ===================== NOVO: estilização dos campos =====================
+/* =====================  estilização dos campos =====================
    Aqui é só CSS. Os elementos em si (input, id, name, type) continuam
    exatamente como já estavam definidos — não criei select nem botão
    nenhum, só deixei os campos com espaçamento, bordas e labels. 
