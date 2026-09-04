@@ -1,8 +1,6 @@
-
 function impedirRecarregamento(){
 
     const formulario = document.getElementById("formulario")
-    const botao = document.getElementById("botao")
 
     /* 
     Explicação do código abaixo:
@@ -20,20 +18,16 @@ function impedirRecarregamento(){
 
         montarJSON()
 
-        
-
     });
-    
 
 }
 
 impedirRecarregamento()
 
 // ===================================================================
-// NOVO: se o Tela2.js mandou a gente de volta pra cá por causa de um
-// erro na API, essa mensagem fica guardada no sessionStorage — aqui a
-// gente lê e mostra ela no formulário, e depois apaga (senão ela
-// ficaria aparecendo pra sempre, mesmo depois de resolvido).
+// Se o Tela2.js mandou a gente de volta pra cá por causa de um erro
+// na API, essa mensagem fica guardada no sessionStorage — aqui a
+// gente lê e mostra ela no formulário, e depois apaga.
 // ===================================================================
 function mostrarErroSalvo() {
     const erro = sessionStorage.getItem("erroApi")
@@ -42,22 +36,61 @@ function mostrarErroSalvo() {
         sessionStorage.removeItem("erroApi")
     }
 }
- 
+
 mostrarErroSalvo()
 
 
-//  Quartos, Banheiros, Com Suíte e Vagas de Garagem agora são
-// grupos de botões (não são mais inputs nem checkboxes). Essa função
-// faz eles funcionarem como um "select": só um botão fica marcado por
-// vez, dentro do mesmo grupo (data-name="quartos", "banheiros", etc).
+// ===================================================================
+// "Modo de teste" — simula uma resposta da API com dados fictícios,
+// pra dar pra ver a Tela 2 preenchida sem precisar do backend rodando.
+// Verifica se o botão existe antes de usar, pra não quebrar o script
+// caso ele seja removido do HTML no futuro.
+// ===================================================================
+function iniciarModoTeste() {
+    const botaoTeste = document.getElementById("btnModoTeste")
+    if (!botaoTeste) return
+
+    botaoTeste.addEventListener("click", () => {
+
+        const dadosParaTelaFicticios = {
+            bairro: "Jardim Panorama",
+            imovel: "Casa construída",
+            quartos: 3,
+            vagas: 2,
+            banheiros: 2,
+            suites: 1,
+            area: 150
+        }
+
+        const respostaFicticiaDaApi = {
+            preco_previsto: 1254000,
+            texto_comercial: "Localizado em uma das regiões mais valorizadas de Salto, este imóvel oferece amplos ambientes, ótima iluminação natural e excelente potencial de valorização. Ideal para quem busca conforto e localização privilegiada."
+        }
+
+        sessionStorage.setItem("modoTeste", "true")
+        sessionStorage.setItem("dadosParaTela", JSON.stringify(dadosParaTelaFicticios))
+        sessionStorage.setItem("respostaFicticiaDaApi", JSON.stringify(respostaFicticiaDaApi))
+
+        window.location.href = "Tela2.html"
+    })
+}
+
+iniciarModoTeste()
+
+
+// ===================================================================
+// Quartos, Banheiros, Com Suíte e Vagas de Garagem são grupos de
+// botões (não são mais inputs nem checkboxes). Essa função faz eles
+// funcionarem como um "select": só um botão fica marcado por vez,
+// dentro do mesmo grupo (data-name="quartos", "banheiros", etc).
 // ===================================================================
 function iniciarBotoesDeOpcao(){
- 
+
     const grupos = document.querySelectorAll(".campo-grupo")
- 
+
     grupos.forEach((grupo) => {
         const botoes = grupo.querySelectorAll(".btn-opcao")
- 
+
         botoes.forEach((botao) => {
             botao.addEventListener("click", () => {
                 botoes.forEach((b) => b.classList.remove("ativo"))
@@ -66,11 +99,10 @@ function iniciarBotoesDeOpcao(){
         })
     })
 }
- 
+
 iniciarBotoesDeOpcao()
- 
+
 // Pega o valor marcado dentro de um grupo de botões
-// (equivalente ao querySelector('input:checked').value da versão com checkbox)
 function valorDoGrupo(nomeDoGrupo){
     const grupo = document.querySelector(`.campo-grupo[data-name="${nomeDoGrupo}"]`)
     const botaoAtivo = grupo.querySelector(".btn-opcao.ativo")
@@ -78,120 +110,58 @@ function valorDoGrupo(nomeDoGrupo){
 }
 
 
-// Pega o texto visível de um <select> (com acento), não o value
-function textoDoSelect(id) {
-    const select = document.getElementById(id)
-    return select.selectedOptions[0] ? select.selectedOptions[0].text : ""
-}
-
-// VERSÃO antiga (mantida comentada, como já estava) — pode
-// apagar quando tiver certeza que não vai precisar voltar pra ela.
-//  function montarJSON(){
-
-    //         inputCidade = document.getElementById("cidade").value
-    //         inputBairro = document.getElementById("bairro").value
-    //         inputImovel = document.getElementById("casa").value
-
-    // /*
-    // Explicação do código abaixo:
-    
-    // input[name="nQuartos"]: procura pelos inputs que possuem o name = quartos
-    // :checked: pegua paenas o que estiver marcado
-    // .value: extrai o valor inserido pelo usuário
-
-    
-    // */
-    //         inputQuartos = document.querySelector('input[name="nQuartos"]:checked').value
-
-    //         inputGaragens = document.querySelector('input[name="nGaragens"]:checked').value
-
-    //         inputBanheiros = document.querySelector('input[name="nBanheiros"]:checked').value
-
-    //         inputSuites = document.querySelector('input[name="nSuites"]:checked').value
-
-    //         inputArea = document.getElementById("area").value
-
-    //         const dados = {
-         
-                
-    //                 cidade: inputCidade,
-    //                 bairro: inputBairro,
-    //                 imovel: inputImovel,
-    //                 quartos: inputQuartos,
-    //                 garagens: inputGaragens,
-    //                 banheiros: inputBanheiros,
-    //                 area: inputArea
-    
-
-    //         }
-
-    //         console.log(dados)
-
-
-    //     }
-
 function montarJSON(){
- 
+
     inputBairro = document.getElementById("bairro").value
-    inputImovel = document.getElementById("casa").value
-    inputTipoConstrucao = document.getElementById("tipoConstrucao").value
     inputArea = document.getElementById("area").value
- 
+
     // Antes: document.getElementById("quartos").value (quando quartos era um input)
-    // Agora: pega o botão marcado dentro do grupo, igual o :checked fazia com o checkbox
+    // Agora: pega o botão marcado dentro do grupo
     inputQuartos = valorDoGrupo("quartos")
     inputGaragens = valorDoGrupo("garagens")
     inputBanheiros = valorDoGrupo("banheiros")
     inputSuites = valorDoGrupo("suites")
- 
+
     // Valida se todos os campos obrigatórios foram preenchidos
     const mensagemErro = document.getElementById("mensagemErro")
     const camposFaltando = []
- 
+
     if (!inputBairro) camposFaltando.push("bairro")
-    if (!inputImovel) camposFaltando.push("tipo de casa")
-    if (!inputTipoConstrucao) camposFaltando.push("tipo de construção")
     if (!inputArea) camposFaltando.push("área")
     if (!inputQuartos) camposFaltando.push("quartos")
     if (!inputGaragens) camposFaltando.push("vagas de garagem")
     if (!inputBanheiros) camposFaltando.push("banheiros")
     if (!inputSuites) camposFaltando.push("suíte")
- 
+
     if (camposFaltando.length > 0) {
         mensagemErro.textContent = `Preencha: ${camposFaltando.join(", ")}`
         return
     }
- 
+
     mensagemErro.textContent = ""
-    
 
     // ATENÇÃO: o schemas.py do Backend (classe Imovel) usa
     // "extra": "forbid" — só aceita exatamente estes 5 campos:
-    // area_m2, quartos, banheiros, vagas, bairro. Por isso imovel,
-    // tipo_construcao e suites continuam no formulário (pra bater com o
-    // Figma), mas NÃO são enviados no payload ainda. Assim que o
-    // schemas.py for atualizado pra aceitar esses campos, é só
-    // descomentar as linhas abaixo.
-    // ===================================================================
+    // area_m2, quartos, banheiros, vagas, bairro. "imovel" continua
+    // fixo (sempre "Casa construída"), mas NÃO é enviado no payload
+    // ainda. Assim que o schemas.py aceitar esse campo, é só
+    // descomentar a linha abaixo.
     const dados = {
- 
+
         bairro: inputBairro,
-        // imovel: inputImovel,
-        // tipo_construcao: inputTipoConstrucao,
+        // imovel: "Casa construída",
         quartos: Number(inputQuartos),
         vagas: Number(inputGaragens),
         banheiros: Number(inputBanheiros),
-        // suites: Number(inputSuites),
         area_m2: Number(inputArea)
- 
+
     }
 
     // Guarda também os campos "visuais" (que não vão pro Backend ainda),
     // pra poder mostrar tudo na tela de resultado mesmo assim
     const dadosParaTela = {
         bairro: inputBairro,
-        imovel: textoDoSelect("casa"),
-        tipoConstrucao: textoDoSelect("tipoConstrucao"),
+        imovel: "Casa construída",
         quartos: Number(inputQuartos),
         vagas: Number(inputGaragens),
         banheiros: Number(inputBanheiros),
@@ -199,13 +169,11 @@ function montarJSON(){
         area: Number(inputArea)
     }
 
-    // NOVO (por causa da separação em páginas): em vez de trocar de
-    // "tela" com CSS, guardamos os dados no sessionStorage do navegador
-    // e navegamos de verdade pra resultado.html. É a página de resultado
-    // quem vai ler esses dados e chamar a API — ver js/Tela2.js
-    // ===================================================================
+    // Guardamos os dados no sessionStorage do navegador e navegamos de
+    // verdade pra Tela2.html. É a página de resultado quem vai ler
+    // esses dados e chamar a API — ver js/Tela2.js
     sessionStorage.setItem("payloadApi", JSON.stringify(dados))
     sessionStorage.setItem("dadosParaTela", JSON.stringify(dadosParaTela))
- 
+
     window.location.href = "Tela2.html"
 }

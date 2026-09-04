@@ -59,6 +59,22 @@
                     </div>
  
                 </div>
+
+                <!-- NOVO: classe trocada de "aviso" para "lembrete" -
+                     fundo branco, pra não ficar igual ao AVISO verde 
+                <div class="lembrete">
+                    <h3>❕ Lembrete:</h3>
+                    <p>- O tipo de imóvel considerado nesta estimativa é casa construída.</p>
+                    <p>- A base de referência utiliza imóveis do município de Salto, São Paulo.</p>
+                </div> -->
+
+                 <div class="lembrete">
+                    <p>ℹ️ O tipo de imóvel considerado nesta estimativa é casa construída.</p>
+                </div>
+ 
+                <div class="lembrete">
+                    <p>ℹ️ A base de referência utiliza imóveis do município de Salto, São Paulo.</p>
+                </div>
  
                 <div class="aviso">
                     <h3>AVISO</h3>
@@ -128,16 +144,29 @@
                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s7-7.2 7-12a7 7 0 1 0-14 0c0 4.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.3"/></svg>
                                 </span>
                                 <select name="nbairro" id="bairro" required>
-                                    <option value="" disabled selected>Selecione o bairro</option>
-                                    <option value="Jardim America">Jardim América</option>
-                                    <option value="Jardim Europa">Jardim Europa</option>
-                                    <option value="Jardim Paulista">Jardim Paulista</option>
-                                    <option value="Jardim Paulistano">Jardim Paulistano</option>
-                                    <option value="Cerqueira Cesar">Cerqueira César</option>
+                                    <option value="Village Moutonnee">Village Moutonnee</option>
+                                    <option value="Jardim Panorama">Jardim Panorama</option>
+                                    <option value="Jardim Elizabeth">Jardim Elizabeth</option>
+                                    <option value="Residencial Lagos D Icarai">Residencial Lagos D'Icaraí</option>
+                                    <option value="Condominio Zuleika Jabour">Condomínio Zuleika Jabour</option>
+                                    <option value="Residencial Porto Seguro">Residencial Porto Seguro</option>
+                                    <option value="Urb Salto de Sao Jose">Urb. Salto de São José</option>
+                                    <option value="Jardim D'icarai">Jardim D'Icaraí</option>
+                                    <option value="Jardim das Nacoes">Jardim das Nações</option>
+                                    <option value="Jardim Santa Marta">Jardim Santa Marta</option>
+                                    <option value="Loteamento Jardim das Constelacoes">Loteamento Jardim das Constelações</option>
+                                    <option value="Residencial Sao Bento">Residencial São Bento</option>
+                                    <option value="Buru">Buru</option>
+                                    <option value="Jardim Nair Maria">Jardim Nair Maria</option>
+                                    <option value="Residencial Primavera">Residencial Primavera</option>
+                                    <option value="Jardim Saltense">Jardim Saltense</option>
+                                    <option value="Residencial Sao Gabriel">Residencial São Gabriel</option>
+                                    <option value="Loteamento Terras de Sao Pedro e Sao Paulo">Loteamento Terras de São Pedro e São Paulo</option>
                                 </select>
                             </div>
  
-                            <div class="campo campo-com-icone">
+                             <!--
+                             <div class="campo campo-com-icone">
                                 <label for="casa">TIPO DE CASA</label>
                                 <span class="icone-campo">
                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v9a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-9"/></svg>
@@ -149,8 +178,6 @@
                                     <option value="Casa geminada">Casa geminada</option>
                                 </select>
                             </div>
- 
-                            <!-- Campo novo, não existia na lista original de campos — mas tinha no design do figma. -->
                              <div class="campo campo-com-icone">
                                 <label for="tipoConstrucao">CASA CONSTRUÍDA EM</label>
                                 <span class="icone-campo">
@@ -163,7 +190,8 @@
                                     <option value="Madeira">Madeira</option>
                                     <option value="Pre-moldado">Pré-moldado</option>
                                 </select>
-                            </div>
+                            </div>  
+                            -->
  
                             <div class="campo campo-com-icone">
                                 <label for="area">ÁREA DO IMÓVEL</label>
@@ -228,12 +256,19 @@
                                 </div>
                             </div>
  
-                            <p class="erro-mensagem" id="mensagemErro"></p>
+                            <p class=que"erro-mensagem" id="mensagemErro"></p>
 
                              <input type="submit" id="botao" class="btn-principal" value="VER LAUDO DO IMÓVEL →">
  
 
-                            
+                              <!-- Só pra testar o visual da Tela 2 sem precisar do backend
+                                 rodando. Pode remover quando o backend estiver pronto. -->
+                            <button type="button" id="btnModoTeste" class="link-nova-avaliacao" style="width: 100%; text-align: center; margin-top: 10px;">
+                                Ver exemplo (sem precisar do backend)
+                            </button>
+
+
+
                         </form>
                     </section>
  
@@ -245,6 +280,7 @@
  
     <footer class="rodape">
         <span>© 2026 PrecificaImóveis · Estimativas de mercado</span>
+        <span>Dados baseados em índices FipeZap · São Paulo</span>
     </footer>
  
     <script src="js/main.js"></script>

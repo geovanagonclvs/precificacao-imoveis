@@ -30,6 +30,20 @@ function sortearFotoCapa() {
 // ===================================================================
 function iniciar() {
 
+    // "Modo de teste" — usa uma resposta fictícia em vez de chamar a
+    // API de verdade. Ver botão "Ver exemplo" no index.html / main.js.
+    if (sessionStorage.getItem("modoTeste") === "true") {
+        const dadosParaTela = JSON.parse(sessionStorage.getItem("dadosParaTela"))
+        const respostaFicticia = JSON.parse(sessionStorage.getItem("respostaFicticiaDaApi"))
+
+        sessionStorage.removeItem("modoTeste")
+        sessionStorage.removeItem("respostaFicticiaDaApi")
+
+        exibirResultado(respostaFicticia, dadosParaTela)
+        mostrarTela("resultado")
+        return
+    }
+
     const payloadSalvo = sessionStorage.getItem("payloadApi")
     const dadosParaTelaSalvo = sessionStorage.getItem("dadosParaTela")
 
@@ -70,9 +84,6 @@ async function enviarParaAPI(dados, dadosParaTela) {
 
     } catch (erro) {
         console.error("Erro ao chamar a API:", erro)
-        // Se a API falhar aqui, não tem formulário nessa página pra
-        // mostrar o erro — por isso volta pro index.html com um aviso
-        // (guardado no sessionStorage só pra essa próxima tela usar).
         sessionStorage.setItem("erroApi", "Não foi possível calcular a estimativa agora. Verifique se a API está rodando (uvicorn) e tente novamente.")
         window.location.href = "index.html"
     }
@@ -97,11 +108,10 @@ function mostrarTela(nome) {
 // Preenche a tela de resultado com o que a API devolveu + os dados
 // que o usuário digitou.
 //
-// ATENÇÃO: o Backend (rotas.py) hoje devolve preco_previsto e
-// texto_comercial (confirmado no schemas.py/rotas.py). Não existe
-// ainda uma "faixa" (mínimo/máximo) vinda da API — calculei uma faixa
-// aproximada (±8%) só pra preencher a tela; troque pelo valor real
-// assim que o Backend passar a devolver isso.
+// ATENÇÃO: o Backend hoje devolve preco_previsto e texto_comercial.
+// Não existe ainda uma "faixa" (mínimo/máximo) vinda da API —
+// calculei uma faixa aproximada (±8%) só pra preencher a tela; troque
+// pelo valor real assim que o Backend passar a devolver isso.
 // ===================================================================
 function exibirResultado(resultado, dadosParaTela) {
     const preco = resultado.preco_previsto ?? resultado.preco ?? 0
@@ -111,19 +121,15 @@ function exibirResultado(resultado, dadosParaTela) {
     const faixaMax = preco * 1.08
     const textoFaixa = `Faixa: ${formatarMoeda(faixaMin)} — ${formatarMoeda(faixaMax)}`
 
-    // ---- Foto de capa (sorteada) + preço em destaque ----
     document.getElementById("resultadoHero").style.backgroundImage =
-        `linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.15) 45%, rgba(0,0,0,0.05) 100%), url("${sortearFotoCapa()}")`
+        `linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.05) 60%), url("${sortearFotoCapa()}")`
 
-    document.getElementById("resultadoPreco").textContent = formatarMoeda(preco)
-    document.getElementById("resultadoFaixa").textContent = textoFaixa
-
-    // ---- Coluna principal ----
-    document.getElementById("resultadoLocal").textContent = `${dadosParaTela.bairro} · São Paulo, SP`
+    // Bairros agora são do município de Salto, SP (não mais São Paulo capital)
+    document.getElementById("resultadoLocal").textContent = `${dadosParaTela.bairro} · Salto, SP`
     document.getElementById("resultadoTitulo").textContent =
         `${dadosParaTela.imovel} · ${dadosParaTela.quartos} quartos · ${dadosParaTela.area} m²`
     document.getElementById("resultadoSubtitulo").textContent =
-        `${dadosParaTela.tipoConstrucao} · ${dadosParaTela.suites} suítes · ${dadosParaTela.vagas} vagas`
+        `${dadosParaTela.suites} suítes · ${dadosParaTela.vagas} vagas de garagem`
 
     document.getElementById("resultadoSpecsGrid").innerHTML = `
         <div class="resultado-spec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6"/><path d="M3 18v2M21 18v2"/><path d="M3 12V8a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>${dadosParaTela.quartos} Quartos</div>
@@ -131,12 +137,10 @@ function exibirResultado(resultado, dadosParaTela) {
         <div class="resultado-spec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 9V6a3 3 0 0 1 5.5-1.7"/><path d="M4 9h13a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1z"/></svg>${dadosParaTela.banheiros} Banheiros</div>
         <div class="resultado-spec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="13" width="18" height="6" rx="1.2"/><circle cx="7.5" cy="19" r="1.3"/><circle cx="16.5" cy="19" r="1.3"/></svg>${dadosParaTela.vagas} Vagas de Garagem</div>
         <div class="resultado-spec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="18" height="10" rx="1"/></svg>${dadosParaTela.area} m² de Área</div>
-        <div class="resultado-spec"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M3 12h18"/></svg>${dadosParaTela.tipoConstrucao}</div>
     `
 
     document.getElementById("resultadoTexto").textContent = texto
 
-    // ---- Card lateral ----
     document.getElementById("resultadoPrecoCard").textContent = formatarMoeda(preco)
     document.getElementById("resultadoFaixaCard").textContent = textoFaixa
     document.getElementById("resultadoPrecoM2").textContent = formatarMoeda(preco / dadosParaTela.area) + "/m²"
