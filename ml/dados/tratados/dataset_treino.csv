@@ -1,0 +1,1085 @@
+endereço_casa,preco_casa,metros_casa,quartos_casa,banheiros_casa,vagas_casa
+ Jardim Panorama,760000.0,360,4,5,2
+ Residencial Porto Seguro,475000.0,219,3,2,2
+ Jardim Elizabeth,700000.0,180,3,2,2
+ Urb Salto de São José,1562000.0,300,4,3,4
+ Residencial Lagos D Icaraí ,913000.0,308,3,4,2
+ Village Moutonnee,550000.0,164,3,3,4
+ Jardim D'icarai,435000.0,100,2,2,2
+ Residencial Lagos D Icaraí ,950000.0,199,3,3,2
+ CONDOMINIO ZULEIKA JABOUR,6000.0,124,3,3,4
+ SP,1100000.0,290,3,4,2
+ Jardim das Nações,210000.0,110,3,2,2
+ SP,1650000.0,317,5,4,4
+ Village Moutonnee,645000.0,163,3,3,2
+ Jardim Santa Marta,380000.0,132,2,3,2
+ Loteamento Jardim das Constelacoes,730000.0,105,3,2,4
+ SP,165000.0,35,1,1,2
+ Residencial São Bento,180000.0,50,2,1,2
+ Buru,480000.0,198,3,3,2
+ SP,645000.0,113,3,3,2
+ Jardim Nair Maria,950000.0,124,3,2,2
+ SP,320000.0,206,3,3,2
+ CONDOMINIO ZULEIKA JABOUR,1350000.0,180,2,2,18
+ SP,1150000.0,100,2,1,2
+ Residencial Primavera,270000.0,363,4,4,4
+ Jardim Saltense,1499999.0,395,3,4,3
+ Residencial São Gabriel,300000.0,100,2,1,1
+ Village Moutonnee,320000.0,80,2,1,2
+ Jardim Panorama,650000.0,320,4,6,4
+ SP,415000.0,125,3,2,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,1590000.0,85,2,2,2
+ Jardim Elizabeth,750000.0,105,3,2,2
+ Jardim Panorama,1060000.0,132,2,2,2
+ Residencial Porto Seguro,760000.0,380,4,6,2
+ Jardim Elizabeth,475000.0,178,3,2,2
+ Urb Salto de São José,700000.0,130,3,1,2
+ Residencial Lagos D Icaraí ,1562000.0,183,3,2,4
+ Village Moutonnee,913000.0,360,4,5,2
+ Jardim D'icarai,550000.0,219,3,2,2
+ Residencial Lagos D Icaraí ,435000.0,180,3,2,2
+ CONDOMINIO ZULEIKA JABOUR,950000.0,300,4,3,4
+ SP,6000.0,308,3,4,2
+ Jardim das Nações,1100000.0,164,3,3,4
+ SP,210000.0,100,2,2,2
+ Village Moutonnee,1650000.0,199,3,3,2
+ Jardim Santa Marta,645000.0,124,3,3,4
+ Loteamento Jardim das Constelacoes,380000.0,290,3,4,2
+ SP,730000.0,110,3,2,2
+ Residencial São Bento,165000.0,317,5,4,4
+ Buru,180000.0,163,3,3,2
+ SP,480000.0,132,2,3,2
+ Jardim Nair Maria,645000.0,105,3,2,4
+ SP,950000.0,35,1,1,2
+ CONDOMINIO ZULEIKA JABOUR,320000.0,50,2,1,2
+ SP,1350000.0,198,3,3,2
+ Residencial Primavera,1150000.0,113,3,3,2
+ Jardim Saltense,270000.0,124,3,2,2
+ Residencial São Gabriel,1499999.0,206,3,3,2
+ Village Moutonnee,300000.0,180,2,2,18
+ Jardim Panorama,320000.0,100,2,1,2
+ SP,650000.0,363,4,4,4
+ Loteamento Terras de Sao Pedro e Sao Paulo,415000.0,395,3,4,3
+ Jardim Elizabeth,1590000.0,100,2,1,1
+ Jardim Panorama,750000.0,80,2,1,2
+ Residencial Porto Seguro,1060000.0,320,4,6,4
+ Jardim Elizabeth,760000.0,125,3,2,2
+ Urb Salto de São José,475000.0,85,2,2,2
+ Residencial Lagos D Icaraí ,700000.0,105,3,2,2
+ Village Moutonnee,1562000.0,132,2,2,2
+ Jardim D'icarai,913000.0,380,4,6,2
+ Residencial Lagos D Icaraí ,550000.0,178,3,2,2
+ CONDOMINIO ZULEIKA JABOUR,435000.0,130,3,1,2
+ SP,950000.0,183,3,2,4
+ Jardim das Nações,6000.0,360,4,5,2
+ SP,1100000.0,219,3,2,2
+ Village Moutonnee,210000.0,180,3,2,2
+ Jardim Santa Marta,1650000.0,300,4,3,4
+ Loteamento Jardim das Constelacoes,645000.0,308,3,4,2
+ SP,380000.0,164,3,3,4
+ Residencial São Bento,730000.0,100,2,2,2
+ Buru,165000.0,199,3,3,2
+ SP,180000.0,124,3,3,4
+ Jardim Nair Maria,480000.0,290,3,4,2
+ SP,645000.0,110,3,2,2
+ CONDOMINIO ZULEIKA JABOUR,950000.0,317,5,4,4
+ SP,320000.0,163,3,3,2
+ Residencial Primavera,1350000.0,132,2,3,2
+ Jardim Saltense,1150000.0,105,3,2,4
+ Residencial São Gabriel,270000.0,35,1,1,2
+ Village Moutonnee,1499999.0,50,2,1,2
+ Jardim Panorama,300000.0,198,3,3,2
+ SP,320000.0,113,3,3,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,650000.0,124,3,2,2
+ Jardim Elizabeth,415000.0,206,3,3,2
+ Jardim Panorama,1590000.0,180,2,2,18
+ Residencial Porto Seguro,750000.0,100,2,1,2
+ Jardim Elizabeth,1060000.0,363,4,4,4
+ Urb Salto de São José,760000.0,395,3,4,3
+ Residencial Lagos D Icaraí ,475000.0,100,2,1,1
+ Village Moutonnee,700000.0,80,2,1,2
+ Jardim D'icarai,1562000.0,320,4,6,4
+ Residencial Lagos D Icaraí ,913000.0,125,3,2,2
+ CONDOMINIO ZULEIKA JABOUR,550000.0,85,2,2,2
+ SP,435000.0,105,3,2,2
+ Jardim das Nações,950000.0,132,2,2,2
+ SP,6000.0,380,4,6,2
+ Village Moutonnee,1100000.0,178,3,2,2
+ Jardim Santa Marta,210000.0,130,3,1,2
+ Loteamento Jardim das Constelacoes,1650000.0,183,3,2,4
+ SP,645000.0,360,4,5,2
+ Residencial São Bento,380000.0,219,3,2,2
+ Buru,730000.0,180,3,2,2
+ SP,165000.0,300,4,3,4
+ Jardim Nair Maria,180000.0,308,3,4,2
+ SP,480000.0,164,3,3,4
+ CONDOMINIO ZULEIKA JABOUR,645000.0,100,2,2,2
+ SP,950000.0,199,3,3,2
+ Residencial Primavera,320000.0,124,3,3,4
+ Jardim Saltense,1350000.0,290,3,4,2
+ Residencial São Gabriel,1150000.0,110,3,2,2
+ Village Moutonnee,270000.0,317,5,4,4
+ Jardim Panorama,1499999.0,163,3,3,2
+ SP,300000.0,132,2,3,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,320000.0,105,3,2,4
+ Jardim Elizabeth,650000.0,35,1,1,2
+ Jardim Panorama,415000.0,50,2,1,2
+ Residencial Porto Seguro,1590000.0,198,3,3,2
+ Jardim Elizabeth,750000.0,113,3,3,2
+ Urb Salto de São José,1060000.0,124,3,2,2
+ Residencial Lagos D Icaraí ,760000.0,206,3,3,2
+ Village Moutonnee,475000.0,180,2,2,18
+ Jardim D'icarai,700000.0,100,2,1,2
+ Residencial Lagos D Icaraí ,1562000.0,363,4,4,4
+ CONDOMINIO ZULEIKA JABOUR,913000.0,395,3,4,3
+ SP,550000.0,100,2,1,1
+ Jardim das Nações,435000.0,80,2,1,2
+ SP,950000.0,320,4,6,4
+ Village Moutonnee,6000.0,125,3,2,2
+ Jardim Santa Marta,1100000.0,85,2,2,2
+ Loteamento Jardim das Constelacoes,210000.0,105,3,2,2
+ SP,1650000.0,132,2,2,2
+ Residencial São Bento,645000.0,380,4,6,2
+ Buru,380000.0,178,3,2,2
+ SP,730000.0,130,3,1,2
+ Jardim Nair Maria,165000.0,183,3,2,4
+ SP,180000.0,360,4,5,2
+ CONDOMINIO ZULEIKA JABOUR,480000.0,219,3,2,2
+ SP,645000.0,180,3,2,2
+ Residencial Primavera,950000.0,300,4,3,4
+ Jardim Saltense,320000.0,308,3,4,2
+ Residencial São Gabriel,1350000.0,164,3,3,4
+ Village Moutonnee,1150000.0,100,2,2,2
+ Jardim Panorama,270000.0,199,3,3,2
+ SP,1499999.0,124,3,3,4
+ Loteamento Terras de Sao Pedro e Sao Paulo,300000.0,290,3,4,2
+ Jardim Elizabeth,320000.0,110,3,2,2
+ Jardim Panorama,650000.0,317,5,4,4
+ Residencial Porto Seguro,415000.0,163,3,3,2
+ Jardim Elizabeth,1590000.0,132,2,3,2
+ Urb Salto de São José,750000.0,105,3,2,4
+ Residencial Lagos D Icaraí ,1060000.0,35,1,1,2
+ Village Moutonnee,760000.0,50,2,1,2
+ Jardim D'icarai,475000.0,198,3,3,2
+ Residencial Lagos D Icaraí ,700000.0,113,3,3,2
+ CONDOMINIO ZULEIKA JABOUR,1562000.0,124,3,2,2
+ SP,913000.0,206,3,3,2
+ Jardim das Nações,550000.0,180,2,2,18
+ SP,435000.0,100,2,1,2
+ Village Moutonnee,950000.0,363,4,4,4
+ Jardim Santa Marta,6000.0,395,3,4,3
+ Loteamento Jardim das Constelacoes,1100000.0,100,2,1,1
+ SP,210000.0,80,2,1,2
+ Residencial São Bento,1650000.0,320,4,6,4
+ Buru,645000.0,125,3,2,2
+ SP,380000.0,85,2,2,2
+ Jardim Nair Maria,730000.0,105,3,2,2
+ SP,165000.0,132,2,2,2
+ CONDOMINIO ZULEIKA JABOUR,180000.0,380,4,6,2
+ SP,480000.0,178,3,2,2
+ Residencial Primavera,645000.0,130,3,1,2
+ Jardim Saltense,950000.0,183,3,2,4
+ Residencial São Gabriel,320000.0,360,4,5,2
+ Village Moutonnee,1350000.0,219,3,2,2
+ Jardim Panorama,1150000.0,180,3,2,2
+ SP,270000.0,300,4,3,4
+ Loteamento Terras de Sao Pedro e Sao Paulo,1499999.0,308,3,4,2
+ Jardim Elizabeth,300000.0,164,3,3,4
+ Jardim Panorama,320000.0,100,2,2,2
+ Residencial Porto Seguro,650000.0,199,3,3,2
+ Jardim Elizabeth,415000.0,124,3,3,4
+ Urb Salto de São José,1590000.0,290,3,4,2
+ Residencial Lagos D Icaraí ,750000.0,110,3,2,2
+ Village Moutonnee,1060000.0,317,5,4,4
+ Jardim D'icarai,760000.0,163,3,3,2
+ Residencial Lagos D Icaraí ,475000.0,132,2,3,2
+ CONDOMINIO ZULEIKA JABOUR,700000.0,105,3,2,4
+ SP,1562000.0,35,1,1,2
+ Jardim das Nações,913000.0,50,2,1,2
+ SP,550000.0,198,3,3,2
+ Village Moutonnee,435000.0,113,3,3,2
+ Jardim Santa Marta,950000.0,124,3,2,2
+ Loteamento Jardim das Constelacoes,6000.0,206,3,3,2
+ SP,1100000.0,180,2,2,18
+ Residencial São Bento,210000.0,100,2,1,2
+ Buru,1650000.0,363,4,4,4
+ SP,645000.0,395,3,4,3
+ Jardim Nair Maria,380000.0,100,2,1,1
+ SP,730000.0,80,2,1,2
+ CONDOMINIO ZULEIKA JABOUR,165000.0,320,4,6,4
+ SP,180000.0,125,3,2,2
+ Residencial Primavera,480000.0,85,2,2,2
+ Jardim Saltense,645000.0,105,3,2,2
+ Residencial São Gabriel,950000.0,132,2,2,2
+ Village Moutonnee,320000.0,380,4,6,2
+ Jardim Panorama,1350000.0,178,3,2,2
+ SP,1150000.0,130,3,1,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,270000.0,183,3,2,4
+ Jardim Elizabeth,1499999.0,360,4,5,2
+ Jardim Panorama,300000.0,219,3,2,2
+ Residencial Porto Seguro,320000.0,180,3,2,2
+ Jardim Elizabeth,650000.0,300,4,3,4
+ Urb Salto de São José,415000.0,308,3,4,2
+ Residencial Lagos D Icaraí ,1590000.0,164,3,3,4
+ Village Moutonnee,750000.0,100,2,2,2
+ Jardim D'icarai,1060000.0,199,3,3,2
+ Residencial Lagos D Icaraí ,760000.0,124,3,3,4
+ CONDOMINIO ZULEIKA JABOUR,475000.0,290,3,4,2
+ SP,700000.0,110,3,2,2
+ Jardim das Nações,1562000.0,317,5,4,4
+ SP,913000.0,163,3,3,2
+ Village Moutonnee,550000.0,132,2,3,2
+ Jardim Santa Marta,435000.0,105,3,2,4
+ Loteamento Jardim das Constelacoes,950000.0,35,1,1,2
+ SP,6000.0,50,2,1,2
+ Residencial São Bento,1100000.0,198,3,3,2
+ Buru,210000.0,113,3,3,2
+ SP,1650000.0,124,3,2,2
+ Jardim Nair Maria,645000.0,206,3,3,2
+ SP,380000.0,180,2,2,18
+ CONDOMINIO ZULEIKA JABOUR,730000.0,100,2,1,2
+ SP,165000.0,363,4,4,4
+ Residencial Primavera,180000.0,395,3,4,3
+ Jardim Saltense,480000.0,100,2,1,1
+ Residencial São Gabriel,645000.0,80,2,1,2
+ Village Moutonnee,950000.0,320,4,6,4
+ Jardim Panorama,320000.0,125,3,2,2
+ SP,1350000.0,85,2,2,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,1150000.0,105,3,2,2
+ Jardim Elizabeth,270000.0,132,2,2,2
+ Jardim Panorama,1499999.0,380,4,6,2
+ Residencial Porto Seguro,300000.0,178,3,2,2
+ Jardim Elizabeth,320000.0,130,3,1,2
+ Urb Salto de São José,650000.0,183,3,2,4
+ Residencial Lagos D Icaraí ,415000.0,360,4,5,2
+ Village Moutonnee,1590000.0,219,3,2,2
+ Jardim D'icarai,750000.0,180,3,2,2
+ Residencial Lagos D Icaraí ,1060000.0,300,4,3,4
+ CONDOMINIO ZULEIKA JABOUR,760000.0,308,3,4,2
+ SP,475000.0,164,3,3,4
+ Jardim das Nações,700000.0,100,2,2,2
+ SP,1562000.0,199,3,3,2
+ Village Moutonnee,913000.0,124,3,3,4
+ Jardim Santa Marta,550000.0,290,3,4,2
+ Loteamento Jardim das Constelacoes,435000.0,110,3,2,2
+ SP,950000.0,317,5,4,4
+ Residencial São Bento,6000.0,163,3,3,2
+ Buru,1100000.0,132,2,3,2
+ SP,210000.0,105,3,2,4
+ Jardim Nair Maria,1650000.0,35,1,1,2
+ SP,645000.0,50,2,1,2
+ CONDOMINIO ZULEIKA JABOUR,380000.0,198,3,3,2
+ SP,730000.0,113,3,3,2
+ Residencial Primavera,165000.0,124,3,2,2
+ Jardim Saltense,180000.0,206,3,3,2
+ Residencial São Gabriel,480000.0,180,2,2,18
+ Village Moutonnee,645000.0,100,2,1,2
+ Jardim Panorama,950000.0,363,4,4,4
+ SP,320000.0,395,3,4,3
+ Loteamento Terras de Sao Pedro e Sao Paulo,1350000.0,100,2,1,1
+ Jardim Elizabeth,1150000.0,80,2,1,2
+ Jardim Panorama,270000.0,320,4,6,4
+ Residencial Porto Seguro,1499999.0,125,3,2,2
+ Jardim Elizabeth,300000.0,85,2,2,2
+ Urb Salto de São José,320000.0,105,3,2,2
+ Residencial Lagos D Icaraí ,650000.0,132,2,2,2
+ Village Moutonnee,415000.0,380,4,6,2
+ Jardim D'icarai,1590000.0,178,3,2,2
+ Residencial Lagos D Icaraí ,750000.0,130,3,1,2
+ CONDOMINIO ZULEIKA JABOUR,1060000.0,183,3,2,4
+ SP,760000.0,360,4,5,2
+ Jardim das Nações,475000.0,219,3,2,2
+ SP,700000.0,180,3,2,2
+ Village Moutonnee,1562000.0,300,4,3,4
+ Jardim Santa Marta,913000.0,308,3,4,2
+ Loteamento Jardim das Constelacoes,550000.0,164,3,3,4
+ SP,435000.0,100,2,2,2
+ Residencial São Bento,950000.0,199,3,3,2
+ Buru,6000.0,124,3,3,4
+ SP,1100000.0,290,3,4,2
+ Jardim Nair Maria,210000.0,110,3,2,2
+ SP,1650000.0,317,5,4,4
+ CONDOMINIO ZULEIKA JABOUR,645000.0,163,3,3,2
+ SP,380000.0,132,2,3,2
+ Residencial Primavera,730000.0,105,3,2,4
+ Jardim Saltense,165000.0,35,1,1,2
+ Residencial São Gabriel,180000.0,50,2,1,2
+ Village Moutonnee,480000.0,198,3,3,2
+ Jardim Panorama,645000.0,113,3,3,2
+ SP,950000.0,124,3,2,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,320000.0,206,3,3,2
+ Jardim Elizabeth,1350000.0,180,2,2,18
+ Jardim Panorama,1150000.0,100,2,1,2
+ Residencial Porto Seguro,270000.0,363,4,4,4
+ Jardim Elizabeth,1499999.0,395,3,4,3
+ Urb Salto de São José,300000.0,100,2,1,1
+ Residencial Lagos D Icaraí ,320000.0,80,2,1,2
+ Village Moutonnee,650000.0,320,4,6,4
+ Jardim D'icarai,415000.0,125,3,2,2
+ Residencial Lagos D Icaraí ,1590000.0,85,2,2,2
+ CONDOMINIO ZULEIKA JABOUR,750000.0,105,3,2,2
+ SP,1060000.0,132,2,2,2
+ Jardim das Nações,760000.0,380,4,6,2
+ SP,475000.0,178,3,2,2
+ Village Moutonnee,700000.0,130,3,1,2
+ Jardim Santa Marta,1562000.0,183,3,2,4
+ Loteamento Jardim das Constelacoes,913000.0,360,4,5,2
+ SP,550000.0,219,3,2,2
+ Residencial São Bento,435000.0,180,3,2,2
+ Buru,950000.0,300,4,3,4
+ SP,6000.0,308,3,4,2
+ Jardim Nair Maria,1100000.0,164,3,3,4
+ SP,210000.0,100,2,2,2
+ CONDOMINIO ZULEIKA JABOUR,1650000.0,199,3,3,2
+ SP,645000.0,124,3,3,4
+ Residencial Primavera,380000.0,290,3,4,2
+ Jardim Saltense,730000.0,110,3,2,2
+ Residencial São Gabriel,165000.0,317,5,4,4
+ Village Moutonnee,180000.0,163,3,3,2
+ Jardim Panorama,480000.0,132,2,3,2
+ SP,645000.0,105,3,2,4
+ Loteamento Terras de Sao Pedro e Sao Paulo,950000.0,35,1,1,2
+ Jardim Elizabeth,320000.0,50,2,1,2
+ Jardim Panorama,1350000.0,198,3,3,2
+ Residencial Porto Seguro,1150000.0,113,3,3,2
+ Jardim Elizabeth,270000.0,124,3,2,2
+ Urb Salto de São José,1499999.0,206,3,3,2
+ Residencial Lagos D Icaraí ,300000.0,180,2,2,18
+ Village Moutonnee,320000.0,100,2,1,2
+ Jardim D'icarai,650000.0,363,4,4,4
+ Residencial Lagos D Icaraí ,415000.0,395,3,4,3
+ CONDOMINIO ZULEIKA JABOUR,1590000.0,100,2,1,1
+ SP,750000.0,80,2,1,2
+ Jardim das Nações,1060000.0,320,4,6,4
+ SP,760000.0,125,3,2,2
+ Village Moutonnee,475000.0,85,2,2,2
+ Jardim Santa Marta,700000.0,105,3,2,2
+ Loteamento Jardim das Constelacoes,1562000.0,132,2,2,2
+ SP,913000.0,380,4,6,2
+ Residencial São Bento,550000.0,178,3,2,2
+ Buru,435000.0,130,3,1,2
+ SP,950000.0,183,3,2,4
+ Jardim Nair Maria,6000.0,360,4,5,2
+ SP,1100000.0,219,3,2,2
+ CONDOMINIO ZULEIKA JABOUR,210000.0,180,3,2,2
+ SP,1650000.0,300,4,3,4
+ Residencial Primavera,645000.0,308,3,4,2
+ Jardim Saltense,380000.0,164,3,3,4
+ Residencial São Gabriel,730000.0,100,2,2,2
+ Village Moutonnee,165000.0,199,3,3,2
+ Jardim Panorama,180000.0,124,3,3,4
+ SP,480000.0,290,3,4,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,645000.0,110,3,2,2
+ Jardim Elizabeth,950000.0,317,5,4,4
+ Jardim Panorama,320000.0,163,3,3,2
+ Residencial Porto Seguro,1350000.0,132,2,3,2
+ Jardim Elizabeth,1150000.0,105,3,2,4
+ Urb Salto de São José,270000.0,35,1,1,2
+ Residencial Lagos D Icaraí ,1499999.0,50,2,1,2
+ Village Moutonnee,300000.0,198,3,3,2
+ Jardim D'icarai,320000.0,113,3,3,2
+ Residencial Lagos D Icaraí ,650000.0,124,3,2,2
+ CONDOMINIO ZULEIKA JABOUR,415000.0,206,3,3,2
+ SP,1590000.0,180,2,2,18
+ Jardim das Nações,750000.0,100,2,1,2
+ SP,1060000.0,363,4,4,4
+ Village Moutonnee,760000.0,395,3,4,3
+ Jardim Santa Marta,475000.0,100,2,1,1
+ Loteamento Jardim das Constelacoes,700000.0,80,2,1,2
+ SP,1562000.0,320,4,6,4
+ Residencial São Bento,913000.0,125,3,2,2
+ Buru,550000.0,85,2,2,2
+ SP,435000.0,105,3,2,2
+ Jardim Nair Maria,950000.0,132,2,2,2
+ SP,6000.0,380,4,6,2
+ CONDOMINIO ZULEIKA JABOUR,1100000.0,178,3,2,2
+ SP,210000.0,130,3,1,2
+ Residencial Primavera,1650000.0,183,3,2,4
+ Jardim Saltense,645000.0,360,4,5,2
+ Residencial São Gabriel,380000.0,219,3,2,2
+ Village Moutonnee,730000.0,180,3,2,2
+ Jardim Panorama,165000.0,300,4,3,4
+ SP,180000.0,308,3,4,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,480000.0,164,3,3,4
+ Jardim Elizabeth,645000.0,100,2,2,2
+ Jardim Panorama,950000.0,199,3,3,2
+ Residencial Porto Seguro,320000.0,124,3,3,4
+ Jardim Elizabeth,1350000.0,290,3,4,2
+ Urb Salto de São José,1150000.0,110,3,2,2
+ Residencial Lagos D Icaraí ,270000.0,317,5,4,4
+ Village Moutonnee,1499999.0,163,3,3,2
+ Jardim D'icarai,300000.0,132,2,3,2
+ Residencial Lagos D Icaraí ,320000.0,105,3,2,4
+ CONDOMINIO ZULEIKA JABOUR,650000.0,35,1,1,2
+ SP,415000.0,50,2,1,2
+ Jardim das Nações,1590000.0,198,3,3,2
+ SP,750000.0,113,3,3,2
+ Village Moutonnee,1060000.0,124,3,2,2
+ Jardim Santa Marta,760000.0,206,3,3,2
+ Loteamento Jardim das Constelacoes,475000.0,180,2,2,18
+ SP,700000.0,100,2,1,2
+ Residencial São Bento,1562000.0,363,4,4,4
+ Buru,913000.0,395,3,4,3
+ SP,550000.0,100,2,1,1
+ Jardim Nair Maria,435000.0,80,2,1,2
+ SP,950000.0,320,4,6,4
+ CONDOMINIO ZULEIKA JABOUR,6000.0,125,3,2,2
+ SP,1100000.0,85,2,2,2
+ Residencial Primavera,210000.0,105,3,2,2
+ Jardim Saltense,1650000.0,132,2,2,2
+ Residencial São Gabriel,645000.0,380,4,6,2
+ Village Moutonnee,380000.0,178,3,2,2
+ Jardim Panorama,730000.0,130,3,1,2
+ SP,165000.0,183,3,2,4
+ Loteamento Terras de Sao Pedro e Sao Paulo,180000.0,360,4,5,2
+ Jardim Elizabeth,480000.0,219,3,2,2
+ Jardim Panorama,645000.0,180,3,2,2
+ Residencial Porto Seguro,950000.0,300,4,3,4
+ Jardim Elizabeth,320000.0,308,3,4,2
+ Urb Salto de São José,1350000.0,164,3,3,4
+ Residencial Lagos D Icaraí ,1150000.0,100,2,2,2
+ Village Moutonnee,270000.0,199,3,3,2
+ Jardim D'icarai,1499999.0,124,3,3,4
+ Residencial Lagos D Icaraí ,300000.0,290,3,4,2
+ CONDOMINIO ZULEIKA JABOUR,320000.0,110,3,2,2
+ SP,650000.0,317,5,4,4
+ Jardim das Nações,415000.0,163,3,3,2
+ SP,1590000.0,132,2,3,2
+ Village Moutonnee,750000.0,105,3,2,4
+ Jardim Santa Marta,1060000.0,35,1,1,2
+ Loteamento Jardim das Constelacoes,760000.0,50,2,1,2
+ SP,475000.0,198,3,3,2
+ Residencial São Bento,700000.0,113,3,3,2
+ Buru,1562000.0,124,3,2,2
+ SP,913000.0,206,3,3,2
+ Jardim Nair Maria,550000.0,180,2,2,18
+ SP,435000.0,100,2,1,2
+ CONDOMINIO ZULEIKA JABOUR,950000.0,363,4,4,4
+ SP,6000.0,395,3,4,3
+ Residencial Primavera,1100000.0,100,2,1,1
+ Jardim Saltense,210000.0,80,2,1,2
+ Residencial São Gabriel,1650000.0,320,4,6,4
+ Village Moutonnee,645000.0,125,3,2,2
+ Jardim Panorama,380000.0,85,2,2,2
+ SP,730000.0,105,3,2,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,165000.0,132,2,2,2
+ Jardim Elizabeth,180000.0,380,4,6,2
+ Jardim Panorama,480000.0,178,3,2,2
+ Residencial Porto Seguro,645000.0,130,3,1,2
+ Jardim Elizabeth,950000.0,183,3,2,4
+ Urb Salto de São José,320000.0,360,4,5,2
+ Residencial Lagos D Icaraí ,1350000.0,219,3,2,2
+ Village Moutonnee,1150000.0,180,3,2,2
+ Jardim D'icarai,270000.0,300,4,3,4
+ Residencial Lagos D Icaraí ,1499999.0,308,3,4,2
+ CONDOMINIO ZULEIKA JABOUR,300000.0,164,3,3,4
+ SP,320000.0,100,2,2,2
+ Jardim das Nações,650000.0,199,3,3,2
+ SP,415000.0,124,3,3,4
+ Village Moutonnee,1590000.0,290,3,4,2
+ Jardim Santa Marta,750000.0,110,3,2,2
+ Loteamento Jardim das Constelacoes,1060000.0,317,5,4,4
+ SP,760000.0,163,3,3,2
+ Residencial São Bento,475000.0,132,2,3,2
+ Buru,700000.0,105,3,2,4
+ SP,1562000.0,35,1,1,2
+ Jardim Nair Maria,913000.0,50,2,1,2
+ SP,550000.0,198,3,3,2
+ CONDOMINIO ZULEIKA JABOUR,435000.0,113,3,3,2
+ SP,950000.0,124,3,2,2
+ Residencial Primavera,6000.0,206,3,3,2
+ Jardim Saltense,1100000.0,180,2,2,18
+ Residencial São Gabriel,210000.0,100,2,1,2
+ Village Moutonnee,1650000.0,363,4,4,4
+ Jardim Panorama,645000.0,395,3,4,3
+ SP,380000.0,100,2,1,1
+ Loteamento Terras de Sao Pedro e Sao Paulo,730000.0,80,2,1,2
+ Jardim Elizabeth,165000.0,320,4,6,4
+ Jardim Panorama,180000.0,125,3,2,2
+ Residencial Porto Seguro,480000.0,85,2,2,2
+ Jardim Elizabeth,645000.0,105,3,2,2
+ Urb Salto de São José,950000.0,132,2,2,2
+ Residencial Lagos D Icaraí ,320000.0,380,4,6,2
+ Village Moutonnee,1350000.0,178,3,2,2
+ Jardim D'icarai,1150000.0,130,3,1,2
+ Residencial Lagos D Icaraí ,270000.0,183,3,2,4
+ CONDOMINIO ZULEIKA JABOUR,1499999.0,360,4,5,2
+ SP,300000.0,219,3,2,2
+ Jardim das Nações,320000.0,180,3,2,2
+ SP,650000.0,300,4,3,4
+ Village Moutonnee,415000.0,308,3,4,2
+ Jardim Santa Marta,1590000.0,164,3,3,4
+ Loteamento Jardim das Constelacoes,750000.0,100,2,2,2
+ SP,1060000.0,199,3,3,2
+ Residencial São Bento,760000.0,124,3,3,4
+ Buru,475000.0,290,3,4,2
+ SP,700000.0,110,3,2,2
+ Jardim Nair Maria,1562000.0,317,5,4,4
+ SP,913000.0,163,3,3,2
+ CONDOMINIO ZULEIKA JABOUR,550000.0,132,2,3,2
+ SP,435000.0,105,3,2,4
+ Residencial Primavera,950000.0,35,1,1,2
+ Jardim Saltense,6000.0,50,2,1,2
+ Residencial São Gabriel,1100000.0,198,3,3,2
+ Village Moutonnee,210000.0,113,3,3,2
+ Jardim Panorama,1650000.0,124,3,2,2
+ SP,645000.0,206,3,3,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,380000.0,180,2,2,18
+ Jardim Elizabeth,730000.0,100,2,1,2
+ Jardim Panorama,165000.0,363,4,4,4
+ Residencial Porto Seguro,180000.0,395,3,4,3
+ Jardim Elizabeth,480000.0,100,2,1,1
+ Urb Salto de São José,645000.0,80,2,1,2
+ Residencial Lagos D Icaraí ,950000.0,320,4,6,4
+ Village Moutonnee,320000.0,125,3,2,2
+ Jardim D'icarai,1350000.0,85,2,2,2
+ Residencial Lagos D Icaraí ,1150000.0,105,3,2,2
+ CONDOMINIO ZULEIKA JABOUR,270000.0,132,2,2,2
+ SP,1499999.0,380,4,6,2
+ Jardim das Nações,300000.0,178,3,2,2
+ SP,320000.0,130,3,1,2
+ Village Moutonnee,650000.0,183,3,2,4
+ Jardim Santa Marta,415000.0,360,4,5,2
+ Loteamento Jardim das Constelacoes,1590000.0,219,3,2,2
+ SP,750000.0,180,3,2,2
+ Residencial São Bento,1060000.0,300,4,3,4
+ Buru,760000.0,308,3,4,2
+ SP,475000.0,164,3,3,4
+ Jardim Nair Maria,700000.0,100,2,2,2
+ SP,1562000.0,199,3,3,2
+ CONDOMINIO ZULEIKA JABOUR,913000.0,124,3,3,4
+ SP,550000.0,290,3,4,2
+ Residencial Primavera,435000.0,110,3,2,2
+ Jardim Saltense,950000.0,317,5,4,4
+ Residencial São Gabriel,6000.0,163,3,3,2
+ Village Moutonnee,1100000.0,132,2,3,2
+ Jardim Panorama,210000.0,105,3,2,4
+ SP,1650000.0,35,1,1,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,645000.0,50,2,1,2
+ Jardim Elizabeth,380000.0,198,3,3,2
+ Jardim Panorama,730000.0,113,3,3,2
+ Residencial Porto Seguro,165000.0,124,3,2,2
+ Jardim Elizabeth,180000.0,206,3,3,2
+ Urb Salto de São José,480000.0,180,2,2,18
+ Residencial Lagos D Icaraí ,645000.0,100,2,1,2
+ Village Moutonnee,950000.0,363,4,4,4
+ Jardim D'icarai,320000.0,395,3,4,3
+ Residencial Lagos D Icaraí ,1350000.0,100,2,1,1
+ CONDOMINIO ZULEIKA JABOUR,1150000.0,80,2,1,2
+ SP,270000.0,320,4,6,4
+ Jardim das Nações,1499999.0,125,3,2,2
+ SP,300000.0,85,2,2,2
+ Village Moutonnee,320000.0,105,3,2,2
+ Jardim Santa Marta,650000.0,132,2,2,2
+ Loteamento Jardim das Constelacoes,415000.0,380,4,6,2
+ SP,1590000.0,178,3,2,2
+ Residencial São Bento,750000.0,130,3,1,2
+ Buru,1060000.0,183,3,2,4
+ SP,760000.0,360,4,5,2
+ Jardim Nair Maria,475000.0,219,3,2,2
+ SP,700000.0,180,3,2,2
+ CONDOMINIO ZULEIKA JABOUR,1562000.0,300,4,3,4
+ SP,913000.0,308,3,4,2
+ Residencial Primavera,550000.0,164,3,3,4
+ Jardim Saltense,435000.0,100,2,2,2
+ Residencial São Gabriel,950000.0,199,3,3,2
+ Village Moutonnee,6000.0,124,3,3,4
+ Jardim Panorama,1100000.0,290,3,4,2
+ SP,210000.0,110,3,2,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,1650000.0,317,5,4,4
+ Jardim Elizabeth,645000.0,163,3,3,2
+ Jardim Panorama,380000.0,132,2,3,2
+ Residencial Porto Seguro,730000.0,105,3,2,4
+ Jardim Elizabeth,165000.0,35,1,1,2
+ Urb Salto de São José,180000.0,50,2,1,2
+ Residencial Lagos D Icaraí ,480000.0,198,3,3,2
+ Village Moutonnee,645000.0,113,3,3,2
+ Jardim D'icarai,950000.0,124,3,2,2
+ Residencial Lagos D Icaraí ,320000.0,206,3,3,2
+ CONDOMINIO ZULEIKA JABOUR,1350000.0,180,2,2,18
+ SP,1150000.0,100,2,1,2
+ Jardim das Nações,270000.0,363,4,4,4
+ SP,1499999.0,395,3,4,3
+ Village Moutonnee,300000.0,100,2,1,1
+ Jardim Santa Marta,320000.0,80,2,1,2
+ Loteamento Jardim das Constelacoes,650000.0,320,4,6,4
+ SP,415000.0,125,3,2,2
+ Residencial São Bento,1590000.0,85,2,2,2
+ Buru,750000.0,105,3,2,2
+ SP,1060000.0,132,2,2,2
+ Jardim Nair Maria,760000.0,380,4,6,2
+ SP,475000.0,178,3,2,2
+ CONDOMINIO ZULEIKA JABOUR,700000.0,130,3,1,2
+ SP,1562000.0,183,3,2,4
+ Residencial Primavera,913000.0,360,4,5,2
+ Jardim Saltense,550000.0,219,3,2,2
+ Residencial São Gabriel,435000.0,180,3,2,2
+ Village Moutonnee,950000.0,300,4,3,4
+ Jardim Panorama,6000.0,308,3,4,2
+ SP,1100000.0,164,3,3,4
+ Loteamento Terras de Sao Pedro e Sao Paulo,210000.0,100,2,2,2
+ Jardim Elizabeth,1650000.0,199,3,3,2
+ Jardim Panorama,645000.0,124,3,3,4
+ Residencial Porto Seguro,380000.0,290,3,4,2
+ Jardim Elizabeth,730000.0,110,3,2,2
+ Urb Salto de São José,165000.0,317,5,4,4
+ Residencial Lagos D Icaraí ,180000.0,163,3,3,2
+ Village Moutonnee,480000.0,132,2,3,2
+ Jardim D'icarai,645000.0,105,3,2,4
+ Residencial Lagos D Icaraí ,950000.0,35,1,1,2
+ CONDOMINIO ZULEIKA JABOUR,320000.0,50,2,1,2
+ SP,1350000.0,198,3,3,2
+ Jardim das Nações,1150000.0,113,3,3,2
+ SP,270000.0,124,3,2,2
+ Village Moutonnee,1499999.0,206,3,3,2
+ Jardim Santa Marta,300000.0,180,2,2,18
+ Loteamento Jardim das Constelacoes,320000.0,100,2,1,2
+ SP,650000.0,363,4,4,4
+ Residencial São Bento,415000.0,395,3,4,3
+ Buru,1590000.0,100,2,1,1
+ SP,750000.0,80,2,1,2
+ Jardim Nair Maria,1060000.0,320,4,6,4
+ SP,760000.0,125,3,2,2
+ CONDOMINIO ZULEIKA JABOUR,475000.0,85,2,2,2
+ SP,700000.0,105,3,2,2
+ Residencial Primavera,1562000.0,132,2,2,2
+ Jardim Saltense,913000.0,380,4,6,2
+ Residencial São Gabriel,550000.0,178,3,2,2
+ Village Moutonnee,435000.0,130,3,1,2
+ Jardim Panorama,950000.0,183,3,2,4
+ SP,6000.0,360,4,5,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,1100000.0,219,3,2,2
+ Jardim Elizabeth,210000.0,180,3,2,2
+ Jardim Panorama,1650000.0,300,4,3,4
+ Residencial Porto Seguro,645000.0,308,3,4,2
+ Jardim Elizabeth,380000.0,164,3,3,4
+ Urb Salto de São José,730000.0,100,2,2,2
+ Residencial Lagos D Icaraí ,165000.0,199,3,3,2
+ Village Moutonnee,180000.0,124,3,3,4
+ Jardim D'icarai,480000.0,290,3,4,2
+ Residencial Lagos D Icaraí ,645000.0,110,3,2,2
+ CONDOMINIO ZULEIKA JABOUR,950000.0,317,5,4,4
+ SP,320000.0,163,3,3,2
+ Jardim das Nações,1350000.0,132,2,3,2
+ SP,1150000.0,105,3,2,4
+ Village Moutonnee,270000.0,35,1,1,2
+ Jardim Santa Marta,1499999.0,50,2,1,2
+ Loteamento Jardim das Constelacoes,300000.0,198,3,3,2
+ SP,320000.0,113,3,3,2
+ Residencial São Bento,650000.0,124,3,2,2
+ Buru,415000.0,206,3,3,2
+ SP,1590000.0,180,2,2,18
+ Jardim Nair Maria,750000.0,100,2,1,2
+ SP,1060000.0,363,4,4,4
+ CONDOMINIO ZULEIKA JABOUR,760000.0,395,3,4,3
+ SP,475000.0,100,2,1,1
+ Residencial Primavera,700000.0,80,2,1,2
+ Jardim Saltense,1562000.0,320,4,6,4
+ Residencial São Gabriel,913000.0,125,3,2,2
+ Village Moutonnee,550000.0,85,2,2,2
+ Jardim Panorama,435000.0,105,3,2,2
+ SP,950000.0,132,2,2,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,6000.0,380,4,6,2
+ Jardim Elizabeth,1100000.0,178,3,2,2
+ Jardim Panorama,210000.0,130,3,1,2
+ Residencial Porto Seguro,1650000.0,183,3,2,4
+ Jardim Elizabeth,645000.0,360,4,5,2
+ Urb Salto de São José,380000.0,219,3,2,2
+ Residencial Lagos D Icaraí ,730000.0,180,3,2,2
+ Village Moutonnee,165000.0,300,4,3,4
+ Jardim D'icarai,180000.0,308,3,4,2
+ Residencial Lagos D Icaraí ,480000.0,164,3,3,4
+ CONDOMINIO ZULEIKA JABOUR,645000.0,100,2,2,2
+ SP,950000.0,199,3,3,2
+ Jardim das Nações,320000.0,124,3,3,4
+ SP,1350000.0,290,3,4,2
+ Village Moutonnee,1150000.0,110,3,2,2
+ Jardim Santa Marta,270000.0,317,5,4,4
+ Loteamento Jardim das Constelacoes,1499999.0,163,3,3,2
+ SP,300000.0,132,2,3,2
+ Residencial São Bento,320000.0,105,3,2,4
+ Buru,650000.0,35,1,1,2
+ SP,415000.0,50,2,1,2
+ Jardim Nair Maria,1590000.0,198,3,3,2
+ SP,750000.0,113,3,3,2
+ CONDOMINIO ZULEIKA JABOUR,1060000.0,124,3,2,2
+ SP,760000.0,206,3,3,2
+ Residencial Primavera,475000.0,180,2,2,18
+ Jardim Saltense,700000.0,100,2,1,2
+ Residencial São Gabriel,1562000.0,363,4,4,4
+ Village Moutonnee,913000.0,395,3,4,3
+ Jardim Panorama,550000.0,100,2,1,1
+ SP,435000.0,80,2,1,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,950000.0,320,4,6,4
+ Jardim Elizabeth,6000.0,125,3,2,2
+ Jardim Panorama,1100000.0,85,2,2,2
+ Residencial Porto Seguro,210000.0,105,3,2,2
+ Jardim Elizabeth,1650000.0,132,2,2,2
+ Urb Salto de São José,645000.0,380,4,6,2
+ Residencial Lagos D Icaraí ,380000.0,178,3,2,2
+ Village Moutonnee,730000.0,130,3,1,2
+ Jardim D'icarai,165000.0,183,3,2,4
+ Residencial Lagos D Icaraí ,180000.0,360,4,5,2
+ CONDOMINIO ZULEIKA JABOUR,480000.0,219,3,2,2
+ SP,645000.0,180,3,2,2
+ Jardim das Nações,950000.0,300,4,3,4
+ SP,320000.0,308,3,4,2
+ Village Moutonnee,1350000.0,164,3,3,4
+ Jardim Santa Marta,1150000.0,100,2,2,2
+ Loteamento Jardim das Constelacoes,270000.0,199,3,3,2
+ SP,1499999.0,124,3,3,4
+ Residencial São Bento,300000.0,290,3,4,2
+ Buru,320000.0,110,3,2,2
+ SP,650000.0,317,5,4,4
+ Jardim Nair Maria,415000.0,163,3,3,2
+ SP,1590000.0,132,2,3,2
+ CONDOMINIO ZULEIKA JABOUR,750000.0,105,3,2,4
+ SP,1060000.0,35,1,1,2
+ Residencial Primavera,760000.0,50,2,1,2
+ Jardim Saltense,475000.0,198,3,3,2
+ Residencial São Gabriel,700000.0,113,3,3,2
+ Village Moutonnee,1562000.0,124,3,2,2
+ Jardim Panorama,913000.0,206,3,3,2
+ SP,550000.0,180,2,2,18
+ Loteamento Terras de Sao Pedro e Sao Paulo,435000.0,100,2,1,2
+ Jardim Elizabeth,950000.0,363,4,4,4
+ Jardim Panorama,6000.0,395,3,4,3
+ Residencial Porto Seguro,1100000.0,100,2,1,1
+ Jardim Elizabeth,210000.0,80,2,1,2
+ Urb Salto de São José,1650000.0,320,4,6,4
+ Residencial Lagos D Icaraí ,645000.0,125,3,2,2
+ Village Moutonnee,380000.0,85,2,2,2
+ Jardim D'icarai,730000.0,105,3,2,2
+ Residencial Lagos D Icaraí ,165000.0,132,2,2,2
+ CONDOMINIO ZULEIKA JABOUR,180000.0,380,4,6,2
+ SP,480000.0,178,3,2,2
+ Jardim das Nações,645000.0,130,3,1,2
+ SP,950000.0,183,3,2,4
+ Village Moutonnee,320000.0,360,4,5,2
+ Jardim Santa Marta,1350000.0,219,3,2,2
+ Loteamento Jardim das Constelacoes,1150000.0,180,3,2,2
+ SP,270000.0,300,4,3,4
+ Residencial São Bento,1499999.0,308,3,4,2
+ Buru,300000.0,164,3,3,4
+ SP,320000.0,100,2,2,2
+ Jardim Nair Maria,650000.0,199,3,3,2
+ SP,415000.0,124,3,3,4
+ CONDOMINIO ZULEIKA JABOUR,1590000.0,290,3,4,2
+ SP,750000.0,110,3,2,2
+ Residencial Primavera,1060000.0,317,5,4,4
+ Jardim Saltense,760000.0,163,3,3,2
+ Residencial São Gabriel,475000.0,132,2,3,2
+ Village Moutonnee,700000.0,105,3,2,4
+ Jardim Panorama,1562000.0,35,1,1,2
+ SP,913000.0,50,2,1,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,550000.0,198,3,3,2
+ Jardim Elizabeth,435000.0,113,3,3,2
+ Jardim Panorama,950000.0,124,3,2,2
+ Residencial Porto Seguro,6000.0,206,3,3,2
+ Jardim Elizabeth,1100000.0,180,2,2,18
+ Urb Salto de São José,210000.0,100,2,1,2
+ Residencial Lagos D Icaraí ,1650000.0,363,4,4,4
+ Village Moutonnee,645000.0,395,3,4,3
+ Jardim D'icarai,380000.0,100,2,1,1
+ Residencial Lagos D Icaraí ,730000.0,80,2,1,2
+ CONDOMINIO ZULEIKA JABOUR,165000.0,320,4,6,4
+ SP,180000.0,125,3,2,2
+ Jardim das Nações,480000.0,85,2,2,2
+ SP,645000.0,105,3,2,2
+ Village Moutonnee,950000.0,132,2,2,2
+ Jardim Santa Marta,320000.0,380,4,6,2
+ Loteamento Jardim das Constelacoes,1350000.0,178,3,2,2
+ SP,1150000.0,130,3,1,2
+ Residencial São Bento,270000.0,183,3,2,4
+ Buru,1499999.0,360,4,5,2
+ SP,300000.0,219,3,2,2
+ Jardim Nair Maria,320000.0,180,3,2,2
+ SP,650000.0,300,4,3,4
+ CONDOMINIO ZULEIKA JABOUR,415000.0,308,3,4,2
+ SP,1590000.0,164,3,3,4
+ Residencial Primavera,750000.0,100,2,2,2
+ Jardim Saltense,1060000.0,199,3,3,2
+ Residencial São Gabriel,760000.0,124,3,3,4
+ Village Moutonnee,475000.0,290,3,4,2
+ Jardim Panorama,700000.0,110,3,2,2
+ SP,1562000.0,317,5,4,4
+ Loteamento Terras de Sao Pedro e Sao Paulo,913000.0,163,3,3,2
+ Jardim Elizabeth,550000.0,132,2,3,2
+ Jardim Panorama,435000.0,105,3,2,4
+ Residencial Porto Seguro,950000.0,35,1,1,2
+ Jardim Elizabeth,6000.0,50,2,1,2
+ Urb Salto de São José,1100000.0,198,3,3,2
+ Residencial Lagos D Icaraí ,210000.0,113,3,3,2
+ Village Moutonnee,1650000.0,124,3,2,2
+ Jardim D'icarai,645000.0,206,3,3,2
+ Residencial Lagos D Icaraí ,380000.0,180,2,2,18
+ CONDOMINIO ZULEIKA JABOUR,730000.0,100,2,1,2
+ SP,165000.0,363,4,4,4
+ Jardim das Nações,180000.0,395,3,4,3
+ SP,480000.0,100,2,1,1
+ Village Moutonnee,645000.0,80,2,1,2
+ Jardim Santa Marta,950000.0,320,4,6,4
+ Loteamento Jardim das Constelacoes,320000.0,125,3,2,2
+ SP,1350000.0,85,2,2,2
+ Residencial São Bento,1150000.0,105,3,2,2
+ Buru,270000.0,132,2,2,2
+ SP,1499999.0,380,4,6,2
+ Jardim Nair Maria,300000.0,178,3,2,2
+ SP,320000.0,130,3,1,2
+ CONDOMINIO ZULEIKA JABOUR,650000.0,183,3,2,4
+ SP,415000.0,360,4,5,2
+ Residencial Primavera,1590000.0,219,3,2,2
+ Jardim Saltense,750000.0,180,3,2,2
+ Residencial São Gabriel,1060000.0,300,4,3,4
+ Village Moutonnee,760000.0,308,3,4,2
+ Jardim Panorama,475000.0,164,3,3,4
+ SP,700000.0,100,2,2,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,1562000.0,199,3,3,2
+ Jardim Elizabeth,913000.0,124,3,3,4
+ Jardim Panorama,550000.0,290,3,4,2
+ Residencial Porto Seguro,435000.0,110,3,2,2
+ Jardim Elizabeth,950000.0,317,5,4,4
+ Urb Salto de São José,6000.0,163,3,3,2
+ Residencial Lagos D Icaraí ,1100000.0,132,2,3,2
+ Village Moutonnee,210000.0,105,3,2,4
+ Jardim D'icarai,1650000.0,35,1,1,2
+ Residencial Lagos D Icaraí ,645000.0,50,2,1,2
+ CONDOMINIO ZULEIKA JABOUR,380000.0,198,3,3,2
+ SP,730000.0,113,3,3,2
+ Jardim das Nações,165000.0,124,3,2,2
+ SP,180000.0,206,3,3,2
+ Village Moutonnee,480000.0,180,2,2,18
+ Jardim Santa Marta,645000.0,100,2,1,2
+ Loteamento Jardim das Constelacoes,950000.0,363,4,4,4
+ SP,320000.0,395,3,4,3
+ Residencial São Bento,1350000.0,100,2,1,1
+ Buru,1150000.0,80,2,1,2
+ SP,270000.0,320,4,6,4
+ Jardim Nair Maria,1499999.0,125,3,2,2
+ SP,300000.0,85,2,2,2
+ CONDOMINIO ZULEIKA JABOUR,320000.0,105,3,2,2
+ SP,650000.0,132,2,2,2
+ Residencial Primavera,415000.0,380,4,6,2
+ Jardim Saltense,1590000.0,178,3,2,2
+ Residencial São Gabriel,750000.0,130,3,1,2
+ Village Moutonnee,1060000.0,183,3,2,4
+ Jardim Panorama,760000.0,360,4,5,2
+ SP,475000.0,219,3,2,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,700000.0,180,3,2,2
+ Jardim Elizabeth,1562000.0,300,4,3,4
+ Jardim Panorama,913000.0,308,3,4,2
+ Residencial Porto Seguro,550000.0,164,3,3,4
+ Jardim Elizabeth,435000.0,100,2,2,2
+ Urb Salto de São José,950000.0,199,3,3,2
+ Residencial Lagos D Icaraí ,6000.0,124,3,3,4
+ Village Moutonnee,1100000.0,290,3,4,2
+ Jardim D'icarai,210000.0,110,3,2,2
+ Residencial Lagos D Icaraí ,1650000.0,317,5,4,4
+ CONDOMINIO ZULEIKA JABOUR,645000.0,163,3,3,2
+ SP,380000.0,132,2,3,2
+ Jardim das Nações,730000.0,105,3,2,4
+ SP,165000.0,35,1,1,2
+ Village Moutonnee,180000.0,50,2,1,2
+ Jardim Santa Marta,480000.0,198,3,3,2
+ Loteamento Jardim das Constelacoes,645000.0,113,3,3,2
+ SP,950000.0,124,3,2,2
+ Residencial São Bento,320000.0,206,3,3,2
+ Buru,1350000.0,180,2,2,18
+ SP,1150000.0,100,2,1,2
+ Jardim Nair Maria,270000.0,363,4,4,4
+ SP,1499999.0,395,3,4,3
+ CONDOMINIO ZULEIKA JABOUR,300000.0,100,2,1,1
+ SP,320000.0,80,2,1,2
+ Residencial Primavera,650000.0,320,4,6,4
+ Jardim Saltense,415000.0,125,3,2,2
+ Residencial São Gabriel,1590000.0,85,2,2,2
+ Village Moutonnee,750000.0,105,3,2,2
+ Jardim Panorama,1060000.0,132,2,2,2
+ SP,760000.0,380,4,6,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,475000.0,178,3,2,2
+ Jardim Elizabeth,700000.0,130,3,1,2
+ Jardim Panorama,1562000.0,183,3,2,4
+ Residencial Porto Seguro,913000.0,360,4,5,2
+ Jardim Elizabeth,550000.0,219,3,2,2
+ Urb Salto de São José,435000.0,180,3,2,2
+ Residencial Lagos D Icaraí ,950000.0,300,4,3,4
+ Village Moutonnee,6000.0,308,3,4,2
+ Jardim D'icarai,1100000.0,164,3,3,4
+ Residencial Lagos D Icaraí ,210000.0,100,2,2,2
+ CONDOMINIO ZULEIKA JABOUR,1650000.0,199,3,3,2
+ SP,645000.0,124,3,3,4
+ Jardim das Nações,380000.0,290,3,4,2
+ SP,730000.0,110,3,2,2
+ Village Moutonnee,165000.0,317,5,4,4
+ Jardim Santa Marta,180000.0,163,3,3,2
+ Loteamento Jardim das Constelacoes,480000.0,132,2,3,2
+ SP,645000.0,105,3,2,4
+ Residencial São Bento,950000.0,35,1,1,2
+ Buru,320000.0,50,2,1,2
+ SP,1350000.0,198,3,3,2
+ Jardim Nair Maria,1150000.0,113,3,3,2
+ SP,270000.0,124,3,2,2
+ CONDOMINIO ZULEIKA JABOUR,1499999.0,206,3,3,2
+ SP,300000.0,180,2,2,18
+ Residencial Primavera,320000.0,100,2,1,2
+ Jardim Saltense,650000.0,363,4,4,4
+ Residencial São Gabriel,415000.0,395,3,4,3
+ Village Moutonnee,1590000.0,100,2,1,1
+ Jardim Panorama,750000.0,80,2,1,2
+ SP,1060000.0,320,4,6,4
+ Loteamento Terras de Sao Pedro e Sao Paulo,760000.0,125,3,2,2
+ Jardim Elizabeth,475000.0,85,2,2,2
+ Jardim Panorama,700000.0,105,3,2,2
+ Residencial Porto Seguro,1562000.0,132,2,2,2
+ Jardim Elizabeth,913000.0,380,4,6,2
+ Urb Salto de São José,550000.0,178,3,2,2
+ Residencial Lagos D Icaraí ,435000.0,130,3,1,2
+ Village Moutonnee,950000.0,183,3,2,4
+ Jardim D'icarai,6000.0,360,4,5,2
+ Residencial Lagos D Icaraí ,1100000.0,219,3,2,2
+ CONDOMINIO ZULEIKA JABOUR,210000.0,180,3,2,2
+ SP,1650000.0,300,4,3,4
+ Jardim das Nações,645000.0,308,3,4,2
+ SP,380000.0,164,3,3,4
+ Village Moutonnee,730000.0,100,2,2,2
+ Jardim Santa Marta,165000.0,199,3,3,2
+ Loteamento Jardim das Constelacoes,180000.0,124,3,3,4
+ SP,480000.0,290,3,4,2
+ Residencial São Bento,645000.0,110,3,2,2
+ Buru,950000.0,317,5,4,4
+ SP,320000.0,163,3,3,2
+ Jardim Nair Maria,1350000.0,132,2,3,2
+ SP,1150000.0,105,3,2,4
+ CONDOMINIO ZULEIKA JABOUR,270000.0,35,1,1,2
+ SP,1499999.0,50,2,1,2
+ Residencial Primavera,300000.0,198,3,3,2
+ Jardim Saltense,320000.0,113,3,3,2
+ Residencial São Gabriel,650000.0,124,3,2,2
+ Village Moutonnee,415000.0,206,3,3,2
+ Jardim Panorama,1590000.0,180,2,2,18
+ SP,750000.0,100,2,1,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,1060000.0,363,4,4,4
+ Jardim Elizabeth,760000.0,395,3,4,3
+ Jardim Panorama,475000.0,100,2,1,1
+ Residencial Porto Seguro,700000.0,80,2,1,2
+ Jardim Elizabeth,1562000.0,320,4,6,4
+ Urb Salto de São José,913000.0,125,3,2,2
+ Residencial Lagos D Icaraí ,550000.0,85,2,2,2
+ Village Moutonnee,435000.0,105,3,2,2
+ Jardim D'icarai,950000.0,132,2,2,2
+ Residencial Lagos D Icaraí ,6000.0,380,4,6,2
+ CONDOMINIO ZULEIKA JABOUR,1100000.0,178,3,2,2
+ SP,210000.0,130,3,1,2
+ Jardim das Nações,1650000.0,183,3,2,4
+ SP,645000.0,360,4,5,2
+ Village Moutonnee,380000.0,219,3,2,2
+ Jardim Santa Marta,730000.0,180,3,2,2
+ Loteamento Jardim das Constelacoes,165000.0,300,4,3,4
+ SP,180000.0,308,3,4,2
+ Residencial São Bento,480000.0,164,3,3,4
+ Buru,645000.0,100,2,2,2
+ SP,950000.0,199,3,3,2
+ Jardim Nair Maria,320000.0,124,3,3,4
+ SP,1350000.0,290,3,4,2
+ CONDOMINIO ZULEIKA JABOUR,1150000.0,110,3,2,2
+ SP,270000.0,317,5,4,4
+ Residencial Primavera,1499999.0,163,3,3,2
+ Jardim Saltense,300000.0,132,2,3,2
+ Residencial São Gabriel,320000.0,105,3,2,4
+ Village Moutonnee,650000.0,35,1,1,2
+ Jardim Panorama,415000.0,50,2,1,2
+ SP,1590000.0,198,3,3,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,750000.0,113,3,3,2
+ Jardim Elizabeth,1060000.0,124,3,2,2
+ Jardim Panorama,760000.0,206,3,3,2
+ Residencial Porto Seguro,475000.0,180,2,2,18
+ Jardim Elizabeth,700000.0,100,2,1,2
+ Urb Salto de São José,1562000.0,363,4,4,4
+ Residencial Lagos D Icaraí ,913000.0,395,3,4,3
+ Village Moutonnee,550000.0,100,2,1,1
+ Jardim D'icarai,435000.0,80,2,1,2
+ CONDOMINIO ZULEIKA JABOUR,6000.0,125,3,2,2
+ SP,1100000.0,85,2,2,2
+ Jardim das Nações,210000.0,105,3,2,2
+ SP,1650000.0,132,2,2,2
+ Village Moutonnee,645000.0,380,4,6,2
+ Jardim Santa Marta,380000.0,178,3,2,2
+ Loteamento Jardim das Constelacoes,730000.0,130,3,1,2
+ SP,165000.0,183,3,2,4
+ Residencial São Bento,180000.0,360,4,5,2
+ Buru,480000.0,219,3,2,2
+ SP,645000.0,180,3,2,2
+ Jardim Nair Maria,950000.0,300,4,3,4
+ SP,320000.0,308,3,4,2
+ CONDOMINIO ZULEIKA JABOUR,1350000.0,164,3,3,4
+ SP,1150000.0,100,2,2,2
+ Residencial Primavera,270000.0,199,3,3,2
+ Jardim Saltense,1499999.0,124,3,3,4
+ Residencial São Gabriel,300000.0,290,3,4,2
+ Village Moutonnee,320000.0,110,3,2,2
+ Jardim Panorama,650000.0,317,5,4,4
+ SP,415000.0,163,3,3,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,1590000.0,132,2,3,2
+ Jardim Elizabeth,750000.0,105,3,2,4
+ Jardim Panorama,1060000.0,35,1,1,2
+ Residencial Porto Seguro,760000.0,50,2,1,2
+ Jardim Elizabeth,475000.0,198,3,3,2
+ Urb Salto de São José,700000.0,113,3,3,2
+ Residencial Lagos D Icaraí ,1562000.0,124,3,2,2
+ Village Moutonnee,913000.0,206,3,3,2
+ Jardim D'icarai,550000.0,180,2,2,18
+ Residencial Lagos D Icaraí ,435000.0,100,2,1,2
+ CONDOMINIO ZULEIKA JABOUR,950000.0,363,4,4,4
+ SP,6000.0,395,3,4,3
+ Jardim das Nações,1100000.0,100,2,1,1
+ SP,210000.0,80,2,1,2
+ Village Moutonnee,1650000.0,320,4,6,4
+ Jardim Santa Marta,645000.0,125,3,2,2
+ Loteamento Jardim das Constelacoes,380000.0,85,2,2,2
+ SP,730000.0,105,3,2,2
+ Residencial São Bento,165000.0,132,2,2,2
+ Buru,180000.0,380,4,6,2
+ SP,480000.0,178,3,2,2
+ Jardim Nair Maria,645000.0,130,3,1,2
+ SP,950000.0,183,3,2,4
+ CONDOMINIO ZULEIKA JABOUR,320000.0,360,4,5,2
+ SP,1350000.0,219,3,2,2
+ Residencial Primavera,1150000.0,180,3,2,2
+ Jardim Saltense,270000.0,300,4,3,4
+ Residencial São Gabriel,1499999.0,308,3,4,2
+ Village Moutonnee,300000.0,164,3,3,4
+ Jardim Panorama,320000.0,100,2,2,2
+ SP,650000.0,199,3,3,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,415000.0,124,3,3,4
+ Jardim Elizabeth,1590000.0,290,3,4,2
+ Jardim Panorama,750000.0,110,3,2,2
+ Residencial Porto Seguro,1060000.0,317,5,4,4
+ Jardim Elizabeth,760000.0,163,3,3,2
+ Urb Salto de São José,475000.0,132,2,3,2
+ Residencial Lagos D Icaraí ,700000.0,105,3,2,4
+ Village Moutonnee,1562000.0,35,1,1,2
+ Jardim D'icarai,913000.0,50,2,1,2
+ Residencial Lagos D Icaraí ,550000.0,198,3,3,2
+ CONDOMINIO ZULEIKA JABOUR,435000.0,113,3,3,2
+ SP,950000.0,124,3,2,2
+ Jardim das Nações,6000.0,206,3,3,2
+ SP,1100000.0,180,2,2,18
+ Village Moutonnee,210000.0,100,2,1,2
+ Jardim Santa Marta,1650000.0,363,4,4,4
+ Loteamento Jardim das Constelacoes,645000.0,395,3,4,3
+ SP,380000.0,100,2,1,1
+ Residencial São Bento,730000.0,80,2,1,2
+ Buru,165000.0,320,4,6,4
+ SP,180000.0,125,3,2,2
+ Jardim Nair Maria,480000.0,85,2,2,2
+ SP,645000.0,105,3,2,2
+ CONDOMINIO ZULEIKA JABOUR,950000.0,132,2,2,2
+ SP,320000.0,380,4,6,2
+ Residencial Primavera,1350000.0,178,3,2,2
+ Jardim Saltense,1150000.0,130,3,1,2
+ Residencial São Gabriel,270000.0,183,3,2,4
+ Village Moutonnee,1499999.0,360,4,5,2
+ Jardim Panorama,300000.0,219,3,2,2
+ SP,320000.0,180,3,2,2
+ Loteamento Terras de Sao Pedro e Sao Paulo,650000.0,300,4,3,4
+ Jardim Elizabeth,415000.0,308,3,4,2
